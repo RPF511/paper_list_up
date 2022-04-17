@@ -1,0 +1,709 @@
+[1] R. S. Michalski, J. G. Carbonell, and T. M. Mitchell, Machine Learning:
+An Artificial Intelligence Approach. Berlin, Germany: Springer, 2013.
+[2] A. Gupta and E. R. K. Jha, ‘‘A survey of 5G network: Architecture and
+emerging technologies,’’ IEEE Access, vol. 3, pp. 1206–1232, Jul. 2015.
+[3] C. Bockelmann et al., ‘‘Towards massive connectivity support for scal-
+able mMTC communications in 5G networks,’’ IEEE Access, vol. 6,
+pp. 28969–28992, May 2018.
+[4] S. K. Sharma and X. Wang. (Aug. 2018). ‘‘Towards massive machine
+type communications in ultra-dense cellular IoT networks: Current
+issues and machine learning-assisted solutions.’’ [Online]. Available:
+https://arxiv.org/abs/1808.02924
+[5] M. Chiani, E. Paolini, and F. Callegati, ‘‘Open issues and beyond 5G,’’
+in 5G Italy White eBook: From Research to Market. Rome, Italy, 2018.
+[Online]. Available: https://www.5gitaly.eu/en/white-ebook-2/
+[6] K. David and H. Berndt, ‘‘6G vision and requirements: Is there any need
+for beyond 5G?’’ IEEE Veh. Technol. Mag., vol. 13, no. 3, pp. 72–80,
+Sep. 2018.
+[7] F. Tariq, M. Khandaker, K.-K. Wong, M. Imran, M. Bennis, and
+M. Debbah. (Feb. 2019). ‘‘A speculative study on 6G.’’ [Online]. Avail-
+able: https://arxiv.org/abs/1902.06700
+[8] E. C. Strinati, S. Barbarossa, J. L. Gonzalez-Jimenez, D. Kténas,
+N. Cassiau, and C. Dehos. (2019). ‘‘6G: The next frontier.’’ [Online].
+Available: https://arxiv.org/abs/1901.03239
+[9] W. Saad, M. Bennis, and M. Chen. (Mar. 2019). ‘‘A vision of 6G
+wireless systems: Applications, trends, technologies, and open research
+problems.’’ [Online]. Available: https://arxiv.org/abs/1902.10265
+[10] IMT Traffic Estimates for the Years 2020 to 2030, document ITU-R
+M.2370-0, 2015.
+[11] J. Wang, C. Jiang, H. Zhang, Y. Ren, K.-C. Chen, and L. Hanzo.
+(2019). ‘‘Thirty years of machine learning: The road to Pareto-
+optimal next-generation wireless networks.’’ [Online]. Available:
+https://arxiv.org/abs/1902.01946
+[12] M. G. Kibria, K. Nguyen, G. P. Villardi, O. Zhao, K. Ishizu, and F. Kojima,
+‘‘Big data analytics, machine learning, and artificial intelligence in next-
+generation wireless networks,’’ IEEE Access, vol. 6, pp. 32328–32338,
+May 2018.
+[13] Y. Liu, S. Bi, Z. Shi, and L. Hanzo. (2019). ‘‘When machine learning
+meets big data: A wireless communication perspective.’’ [Online]. Avail-
+able: https://arxiv.org/abs/1901.08329
+[14] S. K. Sharma and X. Wang, ‘‘Collaborative distributed Q-learning for
+RACH congestion minimization in cellular IoT networks,’’ IEEE Com-
+mun. Lett., to be published.
+[15] O. Simeone, ‘‘A very brief introduction to machine learning with appli-
+cations to communication systems,’’ IEEE Trans. Cogn. Commun. Netw.,
+vol. 4, no. 4, pp. 648–664, Dec. 2018.
+[16] C. Zhang, P. Patras, and H. Haddadi. (2018). ‘‘Deep learning in
+mobile and wireless networking: A survey.’’ [Online]. Available:
+https://arxiv.org/abs/1803.04311
+[17] A. Zappone, M. Di Renzo, and M. Debbah. (2019). ‘‘Wireless networks
+design in the era of deep learning: Model-based, AI-based, or both?’’
+[Online]. Available: https://arxiv.org/abs/1902.02647
+[18] H. Ye, G. Y. Li, B.-H. F. Juang, and K. Sivanesan. (2018). ‘‘Channel
+agnostic end-to-end learning based communication systems with condi-
+tional GAN.’’ [Online]. Available: https://arxiv.org/abs/1807.00447
+[19] T. O’Shea and J. Hoydis, ‘‘An introduction to deep learning for the physi-
+cal layer,’’ IEEE Trans. Cogn. Commun. Netw., vol. 3, no. 4, pp. 563–575,
+Dec. 2017.
+[20] H. Ye, G. Y. Li, and B.-H. Juang, ‘‘Power of deep learning for channel
+estimation and signal detection in OFDM systems,’’ IEEE Wireless Com-
+mun. Lett., vol. 7, no. 1, pp. 114–117, Feb. 2018.
+[21] H. Ye and G. Y. Li, ‘‘Deep reinforcement learning for resource allocation
+in V2V communications,’’ in Proc. IEEE Int. Conf. Commun., May 2018,
+pp. 1–6.
+[22] F. Jameel, S. Wyne, S. J. Nawaz, and Z. Chang, ‘‘Propagation
+channels for mmWave vehicular communications: State-of-the-art and
+future research directions,’’ IEEE Wireless Commun., vol. 26, no. 1,
+pp. 144–150, Feb. 2019.
+[23] H. He, C.-K. Wen, S. Jin, and G. Y. Li. (2018). ‘‘Deep learning-based
+channel estimation for beamspace mmWave massive MIMO systems.’’
+[Online]. Available: https://arxiv.org/pdf/1802.01290.pdf
+[24] H. Ye, L. Liang, G. Y. Li, J. Kim, L. Lu, and M. Wu, ‘‘Machine learning
+for vehicular networks: Recent advances and application examples,’’
+IEEE Veh. Technol. Mag., vol. 13, no. 2, pp. 94–101, Jun. 2018.
+[25] S. Riyaz, K. Sankhe, S. Ioannidis, and K. Chowdhury, ‘‘Deep learning
+convolutional neural networks for radio identification,’’ IEEE Commun.
+Mag., vol. 56, no. 9, pp. 146–152, Sep. 2018.
+[26] F. Tang, B. Mao, Z. M. Fadlullah, and N. Kato, ‘‘On a novel deep-
+learning-based intelligent partially overlapping channel assignment in
+SDN-IoT,’’ IEEE Commun. Mag., vol. 56, no. 9, pp. 80–86, Sep. 2018.
+[27] M. Mohammadi and A. Al-Fuqaha, ‘‘Enabling cognitive smart cities
+using big data and machine learning: Approaches and challenges,’’ IEEE
+Commun. Mag., vol. 56, no. 2, pp. 94–101, Feb. 2018.
+[28] C. Day, ‘‘Quantum computing is exciting and important-really!’’ Comput.
+Sci. Eng., vol. 9, no. 2, p. 104, Mar. 2007.
+[29] L. Gyongyosi and S. Imre, ‘‘A survey on quantum computing technol-
+ogy,’’ Comput. Sci. Rev., vol. 31, pp. 51–71, Feb. 2019.
+[30] P. Botsinis et al., ‘‘Quantum algorithms for wireless communications,’’
+IEEE Commun. Surveys Tuts., to be published.
+[31] M. M. Wilde and M.-H. Hsieh, ‘‘The quantum dynamic capacity for-
+mula of a quantum channel,’’ Quantum Inf. Process., vol. 11, no. 6,
+pp. 1431–1463, 2012.
+[32] H. V. Nguyen et al., ‘‘EXIT-chart aided quantum code design improves
+the normalised throughput of realistic quantum devices,’’ IEEE Access,
+vol. 4, pp. 10194–10209, Jul. 2016.
+[33] D. Alanis et al., ‘‘Quantum-aided multi-objective routing optimization
+using back-tracing-aided dynamic programming,’’ IEEE Trans. Veh.
+Technol., vol. 67, no. 8, pp. 7856–7860, Aug. 2018.
+[34] M. A. M. Izhar et al., ‘‘Quantum turbo decoding for quantum channels
+exhibiting memory,’’ IEEE Access, vol. 6, pp. 12369–12381, Feb. 2018.
+[35] P. Botsinis et al., ‘‘Quantum-assisted indoor localization for uplink mm-
+Wave and downlink visible light communication systems,’’ IEEE Access,
+vol. 5, pp. 23327–23351, Jul. 2017.
+[36] D. Alanis, J. Hu, P. Botsinis, Z. Babar, S. X. Ng, and L. Hanzo,
+‘‘Quantum-assisted joint multi-objective routing and load balancing for
+socially-aware networks,’’ IEEE Access, vol. 4, pp. 9993–10028, 2016.
+[37] P. Botsinis, D. Alanis, Z. Babar, S. X. Ng, and L. Hanzo, ‘‘Joint quantum-
+assisted channel estimation and data detection,’’ IEEE Access, vol. 4,
+pp. 7658–7681, Jul. 2016.
+[38] P. Botsinis et al., ‘‘Quantum-aided multi-user transmission in
+non-orthogonal multiple access systems,’’ IEEE Access, vol. 4,
+pp. 7402–7424, Jul. 2016.
+[39] E. P. DeBenedictis, ‘‘A future with quantum machine learning,’’ Com-
+puter, vol. 51, no. 2, pp. 68–71, Feb. 2018.
+[40] H. Chen, L. Wossnig, S. Severini, H. Neven, and M. Mohseni. (2018).
+‘‘Universal discriminative quantum neural networks.’’ [Online]. Avail-
+able: https://arxiv.org/abs/1805.08654
+[41] J. Biamonte, P. Wittek, N. Pancotti, P. Rebentrost, N. Wiebe, and S. Lloyd,
+‘‘Quantum machine learning,’’ Nature, vol. 549, pp. 195–202, Sep. 2017.
+[42] S. Lloyd, M. Mohseni, and P. Rebentrost. (2013). ‘‘Quantum algorithms
+for supervised and unsupervised machine learning.’’ [Online]. Available:
+https://arxiv.org/abs/1307.0411
+[43] V. Dunjko, J. M. Taylor, and H. J. Briegel, ‘‘Quantum-enhanced machine
+learning,’’ Phys. Rev. Lett., vol. 117, no. 13, pp. 130501–130506, 2016.
+[44] System Architecture for the 5G System; Stage 2, Releases 15, document
+3GPP TS 23.501, V15.2.0, Technical Specification Group Services and
+Systems Aspects, Jun. 2018.
+[45] M. Shafi et al., ‘‘5G: A tutorial overview of standards, trials, challenges,
+deployment, and practice,’’ IEEE J. Sel. Areas Commun., vol. 35, no. 6,
+pp. 1201–1221, Jun. 2017.
+[46] J. G. Andrews et al., ‘‘What will 5G be?’’ IEEE J. Sel. Areas Commun.,
+vol. 32, no. 6, pp. 1065–1082, Jun. 2014.
+[47] N. Gonzalez-Prelcic, A. Ali, V. Va, and R. W. Heath, Jr., ‘‘Millimeter-
+wave communication with out-of-band information,’’ IEEE Commun.
+Mag., vol. 55, no. 12, pp. 140–146, Dec. 2017.
+[48] H. Q. Ngo, E. G. Larsson, and T. L. Marzetta, ‘‘Energy and spectral effi-
+ciency of very large multiuser MIMO systems,’’ IEEE Trans. Commun.,
+vol. 61, no. 4, pp. 1436–1449, Apr. 2013.
+[49] C. Liu and L. Wang, ‘‘Optimal cell load and throughput in green small cell
+networks with generalized cell association,’’ IEEE J. Sel. Areas Commun.,
+vol. 34, no. 5, pp. 1058–1072, May 2016.
+[50] IMT Vision—Framework and Overall Objectives of the Future Devel-
+opment of IMT for 2020 and Beyond, IMT, document TU-RM.2083-0,
+Sep. 2015.
+[51] R. Mijumbi, J. Serrat, J.-L. Gorricho, N. Bouten, F. De Turck, and
+R. Boutaba, ‘‘Network function virtualization: State-of-the-art and
+research challenges,’’ IEEE Commun. Surveys Tuts., vol. 18, no. 1,
+pp. 236–262, 1st Quart., 2016.
+[52] I. Afolabi, T. Taleb, K. Samdanis, A. Ksentini, and H. Flinck,
+‘‘Network slicing and softwarization: A survey on principles, enabling
+technologies, and solutions,’’ IEEE Commun. Surveys Tuts., vol. 20, no. 3,
+pp. 2429–2453, 3rd Quart., 2018.
+[53] N. Abbas, Y. Zhang, A. Taherkordi, and T. Skeie, ‘‘Mobile edge com-
+puting: A survey,’’ IEEE Internet Things J., vol. 5, no. 1, pp. 450–465,
+Feb. 2018.
+[54] R. Li et al., ‘‘Intelligent 5G: When cellular networks meet artificial
+intelligence,’’ IEEE Wireless Commun., vol. 24, no. 5, pp. 175–183,
+Oct. 2017.
+[55] S. K. Sharma and X. Wang, ‘‘Live data analytics with collaborative edge
+and cloud processing in wireless IoT networks,’’ IEEE Access, vol. 5,
+pp. 4621–4635, Mar. 2017.
+[56] M. Simsek, A. Aijaz, M. Dohler, J. Sachs, and G. Fettweis, ‘‘5G-enabled
+tactile Internet,’’ IEEE J. Sel. Areas Commun., vol. 34, no. 3, pp. 460–473,
+Mar. 2016.
+[57] H. Haas, C. Chen, and D. O’Brien, ‘‘A guide to wireless networking by
+light,’’ Prog. Quantum Electron., vol. 55, pp. 88–111, Sep. 2017.
+[58] S. K. Sharma, T. E. Bogale, L. B. Le, S. Chatzinotas, X. Wang, and
+B. Ottersten, ‘‘Dynamic spectrum sharing in 5G wireless networks with
+full-duplex technology: Recent advances and research challenges,’’ IEEE
+Commun. Surveys Tuts., vol. 20, no. 1, pp. 674–707, 1st Quart., 2018.
+[59] F. Cheng et al., ‘‘UAV trajectory optimization for data offloading at
+the edge of multiple cells,’’ IEEE Trans. Veh. Technol., vol. 67, no. 7,
+pp. 6732–6736, Jul. 2018.
+[60] C. Zhang, C. Jiang, L. Kuang, J. Jin, Y. He, and Z. Han, ‘‘Spatial
+spectrum sharing for satellite and terrestrial communication networks,’’
+IEEE Trans. Aerosp. Electron. Syst., to be published.
+[61] F. Azmat, Y. Chen, and N. Stocks, ‘‘Analysis of spectrum occupancy using
+machine learning algorithms,’’ IEEE Trans. Veh. Technol., vol. 65, no. 9,
+pp. 6853–6860, Sep. 2016.
+[62] S. Buzzi, C.-L. I, T. E. Klein, H. V. Poor, C. Yang, and A. Zappone,
+‘‘A survey of energy-efficient techniques for 5G networks and challenges
+ahead,’’ IEEE J. Sel. Areas Commun., vol. 34, no. 4, pp. 697–709,
+Apr. 2016.
+[63] C. Liaskos, S. Nie, A. Tsioliaridou, A. Pitsillides, S. Ioannidis, and
+I. Akyildiz, ‘‘A new wireless communication paradigm through software-
+controlled metasurfaces,’’ IEEE Commun. Mag., vol. 56, no. 9,
+pp. 162–169, Sep. 2018.
+[64] Y. Chen, Energy Harvesting Communications: Principles and Theories.
+Hoboken, NJ, USA: Wiley, 2019.
+[65] T. D. P. Perera, D. N. K. Jayakody, S. K. Sharma, S. Chatzinotas, and
+J. Li, ‘‘Simultaneous wireless information and power transfer (SWIPT):
+Recent advances and future challenges,’’ IEEE Commun. Surveys Tuts.,
+vol. 20, no. 1, pp. 264–302, 1st Quart.,2018.
+[66] T. Hou, G. Feng, S. Qin, and W. Jiang, ‘‘Proactive content caching by
+exploiting transfer learning for mobile edge computing,’’ in Proc. IEEE
+GLOBECOM, Dec. 2017, pp. 1–6.
+[67] L. T. Tan and R. Q. Hu, ‘‘Mobility-aware edge caching and computing
+in vehicle networks: A deep reinforcement learning,’’ IEEE Trans. Veh.
+Technol., vol. 67, no. 11, pp. 10190–10203, Nov. 2018.
+[68] H. Kazemi, M. Safari, and H. Haas, ‘‘A wireless optical backhaul solution
+for optical attocell networks,’’ IEEE Trans. Wireless Commun., vol. 18,
+no. 2, pp. 807–823, Feb. 2019.
+[69] X. Artiga et al., ‘‘Shared access satellite-terrestrial reconfigurable back-
+haul network enabled by smart antennas at mmwave band,’’ IEEE Netw.,
+vol. 32, no. 5, pp. 46–53, Sep./Oct. 2018.
+[70] S. K. Sharma and X. Wang, ‘‘Distributed caching enabled peak traffic
+reduction in ultra-dense IoT networks,’’ IEEE Commun. Lett., vol. 22,
+no. 6, pp. 1252–1255, Jun. 2018.
+[71] Y. Wu, A. Khisti, C. Xiao, G. Caire, K.-K. Wong, and X. Gao, ‘‘A survey
+of physical layer security techniques for 5G wireless networks and chal-
+lenges ahead,’’ IEEE J. Sel. Areas Commun., vol. 36, no. 4, pp. 679–695,
+Apr. 2018.
+[72] Y. Xin et al., ‘‘Machine learning and deep learning methods for cyberse-
+curity,’’ IEEE Access, vol. 6, pp. 35365–35381, 2018.
+[73] Y. Li, P. Zhang, and R. Huang, ‘‘Lightweight quantum encryption for
+secure transmission of power data in smart grid,’’ IEEE Access, vol. 7,
+pp. 36285–36293, 2019.
+[74] S. J. Nawaz, S. Mohsin, and A. A. Ikaram, ‘‘Neural network based
+MIMO-OFDM channel equalizer using comb-type pilot arrangement,’’ in
+Proc. IEEE Int. Conf. Future Comput. Commun., Apr. 2009, pp. 36–41.
+[75] X. Ma, H. Ye, and Y. Li, ‘‘Learning assisted estimation for time- vary-
+ing channels,’’ in Proc. Int. Symp. Wireless Commun. Syst., Aug. 2018,
+pp. 1–5.
+[76] S. J. Nawaz, N. M. Khan, M. I. Tiwana, N. Hassan, and S. I. Shah,
+‘‘Airborne Internet access through submarine optical fiber cables,’’ IEEE
+Trans. Aerosp. Electron. Syst., vol. 51, no. 1, pp. 167–177, Jan. 2015.
+[77] M. Chen, W. Saad, C. Yin, and M. Debbah, ‘‘Echo state networks for
+proactive caching in cloud-based radio access networks with mobile
+users,’’ IEEE Trans. Wireless Commun., vol. 16, no. 6, pp. 3520–3535,
+Jun. 2017.
+[78] M. I. Tiwana, S. J. Nawaz, A. A. Ikram, and M. I. Tiwana,
+‘‘Self-organizing networks: A packet scheduling approach for cover-
+age/capacity optimization in 4G networks using reinforcement learning,’’
+Elektronika ir Elektrotechnika, vol. 20, no. 9, pp. 59–64, 2014.
+[79] Y. S. Nasir and D. Guo. (2018). ‘‘Multi-agent deep reinforcement learning
+for dynamic power allocation in wireless networks.’’ [Online]. Available:
+https://arxiv.org/abs/1808.00490
+[80] J.-K. Lain, ‘‘Joint transmit/receive antenna selection for MIMO systems:
+A real-valued genetic approach,’’ IEEE Commun. Lett., vol. 15, no. 1,
+pp. 58–60, Jan. 2011.
+[81] P. D. Karamalis, N. D. Skentos, and A. G. Kanatas, ‘‘Selecting array con-
+figurations for MIMO systems: An evolutionary computation approach,’’
+IEEE Trans. Wireless Commun., vol. 3, no. 6, pp. 1994–1998, Nov. 2004.
+[82] B.-K. Lee, H.-W. Chen, and B.-S. Chen, ‘‘Power control of cellular
+radio systems via robust Smith prediction filter,’’ IEEE Trans. Wireless
+Commun., vol. 3, no. 5, pp. 1822–1831, Sep. 2004.
+[83] H. Y. Lu and W. H. Fang, ‘‘Joint receive antenna selection and symbol
+detection for MIMO systems: A heterogeneous genetic approach,’’ IEEE
+Commun. Lett., vol. 13, no. 2, pp. 97–99, Feb. 2009.
+[84] B. Mansoor, S. J. Nawaz, M. I. Tiwana, J. Ahmed, and A. Haseeb, ‘‘GA
+based estimation of sparse MIMO channels with superimposed training,’’
+Elektronika ir Elektrotechnika, vol. 24, no. 6, pp. 75–81, 2018.
+[85] S. K. Goudos, ‘‘Evolutionary algorithms for wireless communications—
+A review of the state-of-the art,’’ in Contemporary Issues in Wireless
+Communications. Rijeka, Croatia: InTech, 2014.
+[86] S. J. Nawaz, M. I. Tiwana, M. N. Patwary, N. M. Khan, M. I. Tiwana,
+and A. Haseeb, ‘‘GA based sensing of sparse multipath channels with
+superimposed training sequence,’’ Elektronika ir Elektrotechnika, vol. 22,
+no. 1, pp. 87–91, 2016.
+[87] T. W. Rondeau, B. Le, C. J. Rieser, and C. W. Bostian, ‘‘Cognitive radios
+with genetic algorithms: Intelligent control of software defined radios,’’
+in proc. SDR Forum Tech. Conf., vol. 100, 2004, pp. 3–8.
+[88] S. Navabi, C. Wang, O. Y. Bursalioglu, and H. Papadopoulos. (2018).
+‘‘Predicting wireless channel features using neural networks.’’ [Online].
+Available: https://arxiv.org/abs/1802.00107
+[89] N. Farsad, H. B. Yilmaz, A. Eckford, C. B. Chae, and W. Guo, ‘‘A com-
+prehensive survey of recent advancements in molecular communication,’’
+IEEE Commun. Surveys Tuts., vol. 18, no. 3, pp. 1887–1919, 2016.
+[90] X. Qian and M. Di Renzo, ‘‘Receiver design in molecular communica-
+tions: An approach based on artificial neural networks,’’ in Proc. Int.
+Symp. Wireless Commun. Syst., Aug. 2018, pp. 1–5.
+[91] F. Saleem and S. Wyne, ‘‘WLAN–based indoor localization using neural
+networks,’’ J. Elect. Eng., vol. 67, no. 4, pp. 299–306, 2016.
+[92] W. Xia, G. Zheng, Y. Zhu, J. Zhang, J. Wang, and A. P. Petropulu.
+(2019). ‘‘A deep learning framework for optimization of MISO downlink
+beamforming.’’ [Online]. Available: https://arxiv.org/abs/1901.00354
+[93] Z. Qin, H. Ye, G. Y. Li, and B.-H. F. Juang, ‘‘Deep learning in physical
+layer communications,’’ IEEE Wireless Commun., to be published.
+[94] F. D. Calabrese, L. Wang, E. Ghadimi, G. Peters, L. Hanzo, and
+P. Soldati, ‘‘Learning radio resource management in RANs: Framework,
+opportunities, and challenges,’’ IEEE Commun. Mag., vol. 56, no. 9,
+pp. 138–145, Sep. 2018.
+[95] A. Zappone, L. Sanguinetti, and M. Debbah. (2018). ‘‘User association
+and load balancing for massive MIMO through deep learning.’’ [Online].
+Available: https://arxiv.org/abs/1812.06905
+[96] N. C. Luong et al. (2018). ‘‘Applications of deep reinforcement learn-
+ing in communications and networking: A survey.’’ [Online]. Available:
+https://arxiv.org/abs/1810.07862
+[97] M. Kim, W. Lee, and D.-H. Cho, ‘‘A novel PAPR reduction scheme for
+OFDM system based on deep learning,’’ IEEE Commun. Lett., vol. 22,
+no. 3, pp. 510–513, Mar. 2018.
+[98] N. Samuel, T. Diskin, and A. Wiesel. (2018). ‘‘Learning to detect.’’
+[Online]. Available: https://arxiv.org/abs/1805.07631
+[99] J. Vieira, E. Leitinger, M. Sarajlic, X. Li, and F. Tufvesson, ‘‘Deep
+convolutional neural networks for massive MIMO fingerprint-based posi-
+tioning,’’ in Proc. 28th Annu. Int. Symp. Pers., Indoor, Mobile Radio
+Commun., Oct. 2017, pp. 1–6.
+[100] T. Wang, C.-K. Wen, H. Wang, F. Gao, T. Jiang, and S. Jin, ‘‘Deep learning
+for wireless physical layer: Opportunities and challenges,’’ China Com-
+mun., vol. 14, no. 11, pp. 92–111, 2017.
+[101] H. Sun, X. Chen, Q. Shi, M. Hong, X. Fu, and N. D. Sidiropoulos, ‘‘Learn-
+ing to optimize: Training deep neural networks for wireless resource
+management,’’ in Proc. IEEE 18th Int. Workshop Signal Process. Adv.
+Wireless Commun., Jul. 2017, pp. 1–6.
+[102] A. Zappone, M. Debbah, and Z. Altman, ‘‘Online energy-efficient power
+control in wireless networks by deep neural networks,’’ in Proc. IEEE
+19th Int. Workshop Signal Process. Adv. Wireless Commun., Jun. 2018,
+pp. 1–5.
+[103] S. J. Pan and Q. Yang, ‘‘A survey on transfer learning,’’ IEEE Trans.
+Knowl. Data Eng., vol. 22, no. 10, pp. 1345–1359, Oct. 2010.
+[104] C. Tan, F. Sun, T. Kong, W. Zhang, C. Yang, and C. Liu, ‘‘A survey on
+deep transfer learning,’’ in Proc. Artif. Neural Netw. Mach. Learn. Cham,
+Switzerland: Springer, 2018, pp. 270–279.
+[105] J. R. Hershey, J. Le Roux, and F. Weninger. (2014). ‘‘Deep unfolding:
+Model-based inspiration of novel deep architectures.’’ [Online]. Avail-
+able: https://arxiv.org/abs/1409.2574
+[106] X. Jin and H.-N. Kim. (2018). ‘‘Deep learning detection net-
+works in MIMO decode-forward relay channels.’’ [Online]. Available:
+https://arxiv.org/abs/1807.09571
+[107] I. F. Akyildiz, W.-Y. Lee, M. C. Vuran, and S. Mohanty, ‘‘NeXt
+generation/dynamic spectrum access/cognitive radio wireless networks:
+A survey,’’ Comput. Netw., vol. 50, pp. 2127–2159,
+Sep. 2006.
+[108] S. K. Sharma, T. E. Bogale, S. Chatzinotas, B. Ottersten, L. B. Le, and
+X. Wang, ‘‘Cognitive radio techniques under practical imperfections:
+A survey,’’ IEEE Commun. Surveys Tuts., vol. 17, no. 4, pp. 1858–1884,
+4th Quart., 2015.
+[109] K. Thilina, K. W. Choi, N. Saquib, and E. Hossain, ‘‘Machine learn-
+ing techniques for cooperative spectrum sensing in cognitive radio net-
+works,’’ IEEE J. Sel. Areas Commun., vol. 31, no. 11, pp. 2209–2221,
+Nov. 2013.
+[110] X. Li, J. Fang, W. Cheng, H. Duan, Z. Chen, and H. Li, ‘‘Intelligent
+power control for spectrum sharing in cognitive radios: A deep rein-
+forcement learning approach,’’ IEEE Access, vol. 6, pp. 25463–25473,
+Apr. 2018.
+[111] M. Asaduzzaman, R. Abozariba, and M. N. Patwary, ‘‘Spectrum sharing
+optimization in cellular networks under target performance and budget
+restriction,’’ in Proc. IEEE Veh. Technol. Conf. (Spring), Jun. 2017,
+pp. 1–7.
+[112] T. G. Dietterich and P. Langley, ‘‘Machine learning for cognitive net-
+works: Technology assessment and research challenges,’’ in Cognitive
+Networks: Towards Self-Aware Networks. West Sussex, U.K.: Wiley,
+2007.
+[113] A. Kumar, ‘‘A survey of self-organizing networks,’’ in Proc. Eur. Res.
+Project Paper, 2016, pp. 1–16.
+[114] M. Bkassiny, Y. Li, and S. K. Jayaweera, ‘‘A survey on machine-learning
+techniques in cognitive radios,’’ IEEE Commun. Surveys Tuts., vol. 15,
+no. 3, pp. 1136–1159, 3rd Quart., 2013.
+[115] S. Ayoubi et al., ‘‘Machine learning for cognitive network management,’’
+IEEE Commun. Mag., vol. 56, no. 1, pp. 158–165, Jan. 2018.
+[116] N. D. Mermin, Quantum Computer Science: An Introduction. Cambridge,
+U.K.: Cambridge Univ. Press, 2007.
+[117] M. A. Nielsen and I. L. Chuang, ‘‘Quantum computation and quantum
+information,’’ Amer. J. Phys., vol. 70, no. 5, pp. 558–559, 2002.
+[118] S. Imre, ‘‘Quantum communications: Explained for communication engi-
+neers,’’ IEEE Commun. Mag., vol. 51, no. 8, pp. 28–35, Aug. 2013.
+[119] J. D. Franson, ‘‘Quantum communications,’’ in Proc. Quantum Electron.
+Laser Sci. Conf., May, 2001, p. 7.
+[120] A. N. Pinto, N. A. Silva, N. J. Muga, A. J. Almeida, and D. F. Pereira,
+‘‘Quantum communications: An engineering approach,’’ in Proc. Int.
+Conf. Transparent Opt. Netw., Jul. 2017, pp. 1–4.
+[121] L. Gyongyosi, S. Imre, and H. V. Nguyen, ‘‘A survey on quantum channel
+capacities,’’ IEEE Commun. Surveys Tuts., vol. 20, no. 2, pp. 1149–1205,
+2nd Quart., 2018.
+[122] W. K. Wootters and W. H. Zurek, ‘‘A single quantum cannot be cloned,’’
+Nature, vol. 299, pp. 802–803, Oct. 1982.
+[123] C. H. Bennett, P. W. Shor, J. A. Smolin, and A. V. Thapliyal,
+‘‘Entanglement-assisted capacity of a quantum channel and the reverse
+Shannon theorem,’’ IEEE Trans. Inf. Theory, vol. 48, no. 10,
+pp. 2637–2655, Oct. 2002.
+[124] I. Devetak, ‘‘The private classical capacity and quantum capacity of a
+quantum channel,’’ IEEE Trans. Inf. Theory, vol. 51, no. 1, pp. 44–55,
+Jan. 2005.
+[125] M. Berta, J. M. Renes, and M. M. Wilde, ‘‘Identifying the information
+gain of a quantum measurement,’’ IEEE Trans. Inf. Theory, vol. 60, no. 12,
+pp. 7987–8006, Dec. 2014.
+[126] V. Sharma and S. Banerjee, ‘‘Analysis of quantum key distribution based
+satellite communication,’’ in Proc. Int. Conf. Comput., Commun. Netw.
+Technol., Jul. 2018, pp. 1–5.
+[127] K. Inoue, ‘‘Quantum key distribution technologies,’’ IEEE J. Sel. Topics
+Quantum Electron., vol. 12, no. 4, pp. 888–896, Jul. 2006.
+[128] C. H. Bennett, G. Brassard, C. Crépeau, R. Jozsa, A. Peres, and
+W. K. Wootters, ‘‘Teleporting an unknown quantum state via dual clas-
+sical and einstein-podolsky-rosen channels,’’ Phys. Rev. Lett., vol. 70,
+no. 13, pp. 1895–1899, Mar. 1993.
+[129] C. H. Bennett and S. J. Wiesner, ‘‘Communication via one- and two-
+particle operators on Einstein-Podolsky-Rosen states,’’ Phys. Rev. Lett.,
+vol. 69, no. 20, p. 2881, Nov. 1992.
+[130] J. C. Garcia-Escartin and P. Chamorro-Posada, ‘‘Quantum spread spec-
+trum multiple access,’’ IEEE J. Sel. Topics Quantum Electron., vol. 21,
+no. 3, pp. 30–36, May 2015.
+[131] J. H. Shapiro, ‘‘The quantum theory of optical communications,’’ IEEE J.
+Sel. Topics Quantum Electron., vol. 15, no. 6, pp. 1547–1569, Nov. 2009.
+[132] S. Tarantino, D. Cozzolino, K. Rottwitt, and D. Bacco, ‘‘Feasibility of
+quantum communications in aquatic scenario,’’ in Proc. IEEE Photon.
+Conf., Sep./Oct. 2018, pp. 1–2.
+[133] J. Du, ‘‘Terahertz essential devices technique research based on quantum
+communication,’’ in Proc. IEEE Adv. Inf. Technol., Electron. Autom.
+Control Conf., Oct. 2018, pp. 1927–1930.
+[134] S.-T. Cheng, C.-Y. Wang, and M.-H. Tao, ‘‘Quantum communication for
+wireless wide-area networks,’’ IEEE J. Sel. Areas Commun., vol. 23, no. 7,
+pp. 1424–1432, Jul. 2005.
+[135] S. Boixo et al., ‘‘Evidence for quantum annealing with more than one
+hundred qubits,’’ Nature Phys., vol. 10, no. 3, pp. 218–224, Feb. 2014.
+[136] A. S. Holevo, ‘‘The capacity of the quantum channel with general signal
+states,’’ IEEE Trans. Inf. Theory, vol. 44, no. 1, pp. 269–273, Jan. 1998.
+[137] S. Lloyd, ‘‘Capacity of the noisy quantum channel,’’ Phys. Rev. A, Gen.
+Phys., vol. 55, no. 3, pp. 1613–1622, 1997.
+[138] I. Devetak and P. W. Shor, ‘‘The capacity of a quantum channel for simul-
+taneous transmission of classical and quantum information,’’ Commun.
+Math. Phys., vol. 256, no. 2, pp. 287–303, 2005.
+[139] M.-H. Hsieh and M. M. Wilde, ‘‘Entanglement-assisted communication
+of classical and quantum information,’’ IEEE Trans. Inf. Theory, vol. 56,
+no. 9, pp. 4682–4704, Sep. 2010.
+[140] M.-H. Hsieh and M. M. Wilde, ‘‘Trading classical communication, quan-
+tum communication, and entanglement in quantum Shannon theory,’’
+IEEE Trans. Inf. Theory, vol. 56, no. 9, pp. 4705–4730, Sep. 2010.
+[141] M. M. Wilde, M.-H. Hsieh, and Z. Babar, ‘‘Entanglement-assisted
+quantum turbo codes,’’ IEEE Trans. Inf. Theory, vol. 60, no. 2,
+pp. 1203–1222, Feb. 2014.
+[142] M. Takeoka, S. Guha, and M. M. Wilde, ‘‘The squashed entangle-
+ment of a quantum channel,’’ IEEE Trans. Inf. Theory, vol. 60, no. 8,
+pp. 4987–4998, Aug. 2014.
+[143] M. Taucer, F. Karim, K. Walus, and R. A. Wolkow, ‘‘Consequences of
+many-cell correlations in clocked quantum-dot cellular automata,’’ IEEE
+Trans. Nanotechnol., vol. 14, no. 4, pp. 638–647, Jul. 2015.
+[144] C. S. Lent and P. D. Tougaw, ‘‘A device architecture for computing with
+quantum dots,’’ Proc. IEEE, vol. 85, no. 4, pp. 541–557, Apr. 1997.
+[145] F. Qadir, P. Z. Ahmad, S. J. Wani, and M. A. Peer, ‘‘Quantum-dot cellular
+automata: Theory and application,’’ in Proc. Int. Conf. Mach. Intell. Res.
+Adv. (ICMIRA), Dec. 2013, pp. 540–544.
+[146] V. A. Mardiris, G. C. Sirakoulis, and I. G. Karafyllidis, ‘‘Automated
+design architecture for 1-D cellular automata using quantum cellular
+automata,’’ IEEE Trans. Comput., vol. 64, no. 9, pp. 2476–2489, Sep.
+2015.
+[147] A. F. Almatrood and H. Singh, ‘‘Design of generalized pipeline cellular
+array in quantum-dot cellular automata,’’ IEEE Comput. Archit. Lett.,
+vol. 17, no. 1, pp. 29–32, Jan./Jun. 2018.
+[148] H. Hast, S. Khorbotly, and D. Tougaw, ‘‘A signal distribution network
+for sequential quantum-dot cellular automata systems,’’ IEEE Trans.
+Nanotechnol., vol. 14, no. 4, pp. 648–656, Jul. 2015.
+[149] M. Ashtiani and M. A. Azgomi, ‘‘A survey of quantum-like approaches
+to decision making and cognition,’’ Math. Social Sci., vol. 75, pp. 49–80,
+May 2015.
+[150] V. I. Yukalov and D. Sornette, ‘‘Quantitative predictions in quantum
+decision theory,’’ IEEE Trans. Syst., Man, Cybern. Syst., vol. 48, no. 3,
+pp. 366–381, Mar. 2018.
+[151] J. von Neumann and R. T. Beyer, Mathematical Foundations of Quantum
+Mechanics, 1st ed. Princeton, NJ, USA: Princeton Univ. Press, 1955.
+[152] N. L. Piparo and M. Razavi, ‘‘Long-distance trust-free quantum key
+distribution,’’ IEEE J. Sel. Topics Quantum Electron., vol. 21, no. 3,
+pp. 123–130, May 2015.
+[153] V. I. Yukalov and D. Sornette, ‘‘Scheme of thinking quantum systems,’’
+Laser Phys. Lett., vol. 6, no. 11, pp. 833–839, 2009.
+[154] W. Liu, J. liu, M. Cui, and M. He, ‘‘An introductory review on quantum
+game theory,’’ in Proc. Int. Conf. Genetic Evol. Comput., Dec. 2010,
+pp. 386–389.
+[155] H. E. Brandt, ‘‘Qubit devices and the issue of quantum decoherence,’’
+Prog. Quantum Electron., vol. 22, nos. 5–6, pp. 257–370, 1999.
+[156] C. F. Lee and N. F. Johnson, ‘‘Exploiting randomness in quantum infor-
+mation processing,’’ Phys. Lett. A, vol. 301, nos. 5–6, pp. 343–349,
+2002.
+[157] D. Huang and S. Li, ‘‘A survey of the current status of research on
+quantum games,’’ in Proc. 4th Int. Conf. Inf. Manage., May 2018,
+pp. 46–52.
+[158] M. Berta, O. Fawzi, V. Scholz, and O. Szehr, ‘‘Variations on classical and
+quantum extractors,’’ in Proc. IEEE Int. Symp. Inf. Theory, Jun./Jul. 2014,
+pp. 1474–1478.
+[159] R. T. Konig and B. M. Terhal, ‘‘The bounded-storage model in the
+presence of a quantum adversary,’’ IEEE Trans. Inf. Theory, vol. 54, no. 2,
+pp. 749–762, Feb. 2008.
+[160] M. Berta, O. Fawzi, and V. B. Scholz, ‘‘Quantum-proof randomness
+extractors via operator space theory,’’ IEEE Trans. Inf. Theory, vol. 63,
+no. 4, pp. 2480–2503, Apr. 2017.
+[161] R. S. O. Reingold and A. Wigderson, ‘‘Extracting randomness via
+repeated condensing,’’ SIAM J. Comput., vol. 35, no. 5, pp. 1185–1209,
+Jul. 2006.
+[162] P. Botsinis, S. X. Ng, and L. Hanzo, ‘‘Quantum search algorithms,
+quantum wireless, and a low-complexity maximum likelihood iterative
+quantum multi-user detector design,’’ IEEE Access, vol. 1, pp. 94–122,
+2013.
+[163] P. Botsinis, D. Alanis, S. X. Ng, and L. Hanzo, ‘‘Low-complexity soft-
+output quantum-assisted multiuser detection for direct-sequence spread-
+ing and slow subcarrier-hopping aided SDMA-OFDM systems,’’ IEEE
+Access, vol. 2, pp. 451–472, May 2014.
+[164] P. Botsinis, S. X. Ng, and L. Hanzo, ‘‘Fixed-complexity quantum-assisted
+multi-user detection for CDMA and SDMA,’’ IEEE Trans. Commun.,
+vol. 62, no. 3, pp. 990–1000, Mar. 2014.
+[165] P. Botsinis, D. Alanis, Z. Babar, S. X. Ng, and L. Hanzo, ‘‘Iterative
+quantum-assisted multi-user detection for multi-carrier interleave divi-
+sion multiple access systems,’’ IEEE Trans. Commun., vol. 63, no. 10,
+pp. 3713–3727, Oct. 2015.
+[166] P. Botsinis, Y. Huo, D. Alanis, Z. Babar, S. X. Ng, and L. Hanzo, ‘‘Quan-
+tum search-aided multi-user detection of IDMA-assisted multi-layered
+video streaming,’’ IEEE Access, vol. 5, pp. 23233–23255, Jul. 2017.
+[167] Y. Li, G. Su, D. O. Wu, D. Jin, L. Su, and L. Zeng, ‘‘The impact of node
+selfishness on multicasting in delay tolerant networks,’’ IEEE Trans. Veh.
+Technol., vol. 60, no. 5, pp. 2224–2238, Jun. 2011.
+[168] D. Alanis, P. Botsinis, S. X. Ng, and L. Hanzo, ‘‘Quantum-assisted
+routing optimization for self-organizing networks,’’ IEEE Access, vol. 2,
+pp. 614–632, 2014.
+[169] R. Prasad, C. R. Murthy, and B. D. Rao, ‘‘Joint channel estimation and
+data detection in MIMO-OFDM systems: A sparse Bayesian learning
+approach,’’ IEEE Trans. Signal Process., vol. 63, no. 20, pp. 5369–5382,
+Oct. 2015.
+[170] J. Zhang, S. Chen, X. Mu, and L. Hanzo, ‘‘Joint channel estima-
+tion and multiuser detection for SDMA/OFDM based on dual repeated
+weighted boosting search,’’ IEEE Trans. Veh. Technol., vol. 60, no. 7,
+pp. 3265–3275, Sep. 2011.
+[171] P. Wittek, Quantum Machine Learning: What Quantum Computing
+Means to Data Mining. New York, NY, USA: Academic, 2014.
+[172] L. Oneto, S. Ridella, and D. Anguita, ‘‘Quantum computing and super-
+vised machine learning: Training, model selection, and error estima-
+tion,’’ in Quantum Inspired Computational Intelligence. Amsterdam,
+The Netherlands: Elsevier, 2017, pp. 33–83.
+[173] E. Aïmeur, G. Brassard, and S. Gambs, ‘‘Quantum speed-up for unsuper-
+vised learning,’’ Mach. Learn., vol. 90, no. 2, pp. 261–287, 2013.
+[174] D. Dong, C. Chen, H. Li, and T. J. Tarn, ‘‘Quantum reinforce-
+ment learning,’’ IEEE Trans. Syst., Man, B, Cybern., vol. 38, no. 5,
+pp. 1207–1220, Oct. 2008.
+[175] V. Dunjko, J. M. Taylor, and H. J. Briegel, ‘‘Advances in quantum
+reinforcement learning,’’ in Proc. IEEE Int. Conf. Syst., Man, Cybern.,
+Oct. 2017, pp. 282–287.
+[176] S. Nuuman, D. Grace, and T. Clarke, ‘‘A quantum inspired reinforce-
+ment learning technique for beyond next generation wireless networks,’’
+in Proc. IEEE Wireless Commun. Netw. Conf. Workshops, Mar. 2015,
+pp. 271–275.
+[177] W. Huggins, P. Patel, K. B. Whaley, and E. M. Stoudenmire. (2018).
+‘‘Towards quantum machine learning with tensor networks.’’ [Online].
+Available: https://arxiv.org/abs/1803.11537
+[178] X. Gao, Z.-Y. Zhang, and L.-M. Duan, ‘‘A quantum machine learn-
+ing algorithm based on generative models,’’ Sci. Adv., vol. 4, no. 12,
+p. eaat9004, 2018.
+[179] P. Zhang, S. Li, and Y. Zhou, ‘‘An algorithm of quantum restricted
+boltzmann machine network based on quantum gates and its application,’’
+Shock Vib., vol. 2015, Dec. 2014, Art. no. 756969.
+[180] A. Kamruzzaman, Y. Alhwaiti, A. Leider, and C. C. Tappert ‘‘Quantum
+deep learning neural networks,’’ in Advances in Information and Com-
+munication (Lecture Notes in Networks and Systems), vol. 70. Cham,
+Switzerland: Springer, 2019, pp. 299–311.
+[181] G. Purushothaman and N. B. Karayiannis, ‘‘Quantum neural networks
+(QNNs): Inherently fuzzy feedforward neural networks,’’ IEEE Trans.
+Neural Netw., vol. 8, no. 3, pp. 679–693, May 1997.
+[182] M. V. Altaisky. (2001). ‘‘Quantum neural network.’’ [Online]. Available:
+https://arxiv.org/abs/quant-ph/0107012
+[183] A. A. Ezhov and D. Ventura, ‘‘Quantum neural networks,’’ in
+Future Directions for Intelligent Systems and Information Sciences.
+Berlin, Germany: Springer, 2000, pp. 213–235.
+[184] A. Kapoor, N. Wiebe, and K. M. Svore, ‘‘Quantum perceptron models,’’
+in Proc. Adv. Neural Inf. Process. Syst., 2016, pp. 3999–4007.
+[185] P. Rebentrost, M. Mohseni, and S. Lloyd, ‘‘Quantum support vector
+machine for big data classification,’’ Phys. Rev. Lett., vol. 113, no. 13,
+2014, Art. no. 130503.
+[186] T. Arodz and S. Saeedi. (2019). ‘‘Quantum sparse support vector
+machines.’’ [Online]. Available: https://arxiv.org/abs/1902.01879
+[187] Z. Qin, J. Fan, Y. Liu, Y. Gao, and G. Y. Li, ‘‘Sparse representation
+for wireless communications: A compressive sensing approach,’’ IEEE
+Signal Process. Mag., vol. 35, no. 3, pp. 40–58, May 2018.
+[188] S. H. Adachi and M. P. Henderson. (2015). ‘‘Application of quantum
+annealing to training of deep neural networks.’’ [Online]. Available:
+https://arxiv.org/abs/1510.06356
+[189] N. Wiebe, A. Kapoor, and K. M. Svore. (2014). ‘‘Quantum deep learn-
+ing.’’ [Online]. Available: https://arxiv.org/abs/1412.3489
+[190] Y.-B. Sheng and L. Zhou, ‘‘Distributed secure quantum machine learn-
+ing,’’ Sci. Bull., vol. 62, no. 14, pp. 1025–1029, 2017.
+[191] M. K. Saggi and S. Jain, ‘‘A survey towards an integration of big data ana-
+lytics to big insights for value-creation,’’ Inf. Process. Manage., vol. 54,
+no. 5, pp. 758–790, 2018.
+[192] L. Banchi, N. Pancotti, and S. Bose, ‘‘Quantum gate learning in qubit
+networks: Toffoli gate without time-dependent control,’’ NPJ Quantum
+Inf., vol. 2, Jul. 2016, Art. no. 16019.
+[193] J. Preskill, ‘‘Quantum computing in the NISQ era and beyond,’’ Quantum,
+vol. 2, p. 79, Aug. 2018.
+[194] K. Klemic and J. Zeigler, Eds., ‘‘Future directions of quantum information
+processing: A workshop on the emerging science and technology of
+quantum computation, communication, and measurement,’’ in Basic Res.
+Innov. Collaboration Center, Virginia Tech Appl. Res. Corp. (VT-ARC),
+Arlington, VA, USA, Aug. 2016.
+[195] E. Connover, ‘‘Google moves toward quantum supremacy with 72-qubit
+computer,’’ Sci. News, vol. 193, no. 6, p. 13, 2018.
+[196] M. P. Frank, L. Oniciuc, U. H. Meyer-Baese, and I. Chiorescu, ‘‘A space-
+efficient quantum computer simulator suitable for high-speed FPGA
+implementation,’’ Proc. SPIE vol. 7342, Apr. 2009, Art. no. 734203.
+[197] S. Caraiman, A. Archip, and V. Manta, ‘‘A grid enabled quantum com-
+puter simulator,’’ in Proc. Int. Symp. Symbolic Numeric Algorithms Sci.
+Comput., Sep. 2009, pp. 189–196.
+[198] T. Lykouris and S. Vassilvitskii. (2018). ‘‘Competitive caching
+with machine learned advice.’’ [Online]. Available: https://arxiv.
+org/abs/1802.05399
+[199] C. Zhong, M. C. Gursoy, and S. Velipasalar, ‘‘A deep reinforcement
+learning-based framework for content caching,’’ in Proc. Annu. Conf. Inf.
+Sci. Syst., Mar. 2018, pp. 1–6.
+[200] Z. Chang, L. Lei, Z. Zhou, S. Mao, and T. Ristaniemi, ‘‘Learn to cache:
+Machine learning for network edge caching in the big data era,’’ IEEE
+Wireless Commun., vol. 25, no. 3, pp. 28–35, Jun. 2018.
+[201] E. Farhi, J. Goldstone, and S. Gutmann. (2014). ‘‘A quantum
+approximate optimization algorithm.’’ [Online]. Available: https://arxiv.
+org/abs/1411.4028
+[202] H. Yetgin, K. T. K. Cheung, and L. Hanzo, ‘‘Multi-objective routing
+optimization using evolutionary algorithms,’’ in Proc. IEEE Wireless
+Commun. Netw. Conf., Apr. 2012, pp. 3030–3034.
+[203] O. Sener and V. Koltun, ‘‘Multi-task learning as multi-objective optimiza-
+tion,’’ in Proc. Adv. Neural Inf. Process. Syst., 2018, pp. 525–536.
+[204] T. A. Shaikh and R. Ali, ‘‘Quantum computing in big data analytics:
+A survey,’’ in Proc. IEEE Int. Conf. Comput. Inf. Technol., Dec. 2016,
+pp. 112–115.
+[205] A. Gapchup, A. Wani, A. Wadghule, and S. Jadhav, ‘‘Emerging trends of
+green IoT for smart world,’’ Int. J. Innov. Res. Comput. Commun. Eng.,
+vol. 5, no. 2, pp. 2139–2148, 2017.
+[206] N. S. Sehnaz, L. Hemalatha, M. C. S. Geetha, and I. E. Shanthi, ‘‘Going
+green with IoT for smart world-an overview,’’ World Sci. News, vol. 41,
+p. 167, Feb. 2016.
+[207] S. Verma, Y. Kawamoto, Z. M. Fadlullah, H. Nishiyama, and N. Kato,
+‘‘A survey on network methodologies for real-time analytics of massive
+IoT data and open research issues,’’ IEEE Commun. Surveys Tuts., vol. 19,
+no. 3, pp. 1457–1477, 3rd Quart., 2017.
+[208] N. Papernot, P. McDaniel, A. Sinha, and M. Wellman. (2016). ‘‘Towards
+the science of security and privacy in machine learning.’’ [Online]. Avail-
+able: https://arxiv.org/abs/1611.03814
+[209] T. Hong, C. Liu, and M. Kadoch, ‘‘Machine learning based antenna
+design for physical layer security in ambient backscatter communi-
+cations,’’ Wireless Commun. Mobile Comput., vol. 2019, Jan. 2019,
+Art. no. 4870656.
+[210] S. Padmanabhan, R. G. Stephen, C. R. Murthy, and M. Coupechoux,
+‘‘Training-based antenna selection for PER minimization: A POMDP
+approach,’’ IEEE Trans. Commun., vol. 63, no. 9, pp. 3247–3260,
+Sep. 2015.
+[211] C. Antón-Haro and X. Mestre, ‘‘Learning and data-driven beam selection
+for mmWave communications: An angle of arrival-based approach,’’
+IEEE Access, vol. 7, pp. 20404–20415, 2019.
+[212] N. Gulati and K. R. Dandekar, ‘‘Learning state selection for reconfig-
+urable antennas: A multi-armed bandit approach,’’ IEEE Trans. Antennas
+Propag., vol. 62, no. 3, pp. 1027–1038, Mar. 2014.
+[213] A. Mazin, M. Elkourdi, and R. D. Gitlin. (2018). ‘‘Accelerating beam
+sweeping in mmWave standalone 5G new radios using recurrent neural
+networks.’’ [Online]. Available: https://arxiv.org/abs/1809.01096
+[214] O. A. Abdullah and I. Abdel-Qader, ‘‘Machine learning algorithm for
+wireless indoor localization,’’ in Machine Learning-Advanced Techniques
+and Emerging Applications. London, U.K.: IntechOpen, 2018.
+[215] X. Guo, S. Shao, N. Ansari, and A. Khreishah, ‘‘Indoor localization using
+visible light via fusion of multiple classifiers,’’ IEEE Photon. J., vol. 9,
+no. 6, pp. 1–16, Dec. 2017.
+[216] J. Wang et al., ‘‘Terabit free-space data transmission employing orbital
+angular momentum multiplexing,’’ Nature Photon., vol. 6, no. 7,
+pp. 488–496, 2012.
+[217] J. Li, M. Zhang, and D. Wang, ‘‘Adaptive demodulator using machine
+learning for orbital angular momentum shift keying,’’ IEEE Photon.
+Technol. Lett., vol. 29, no. 17, pp. 1455–1458, Sep. 1, 2017.
+[218] X.-Z. Cui et al., ‘‘Analysis of an adaptive orbital angular momentum
+shift keying decoder based on machine learning under oceanic turbulence
+channels,’’ Opt. Commun., vol. 429, pp. 138–143, Dec. 2018.
+[219] G. Interdonato, E. Björnson, H. Q. Ngo, P. Frenger, and
+E. G. Larsson. (2018). ‘‘Ubiquitous cell-free massive MIMO
+communications.’’ [Online]. Available: https://arxiv.org/abs/1804.03421
+[220] A. Felix, S. Cammerer, S. Dörner, J. Hoydis, and S. ten Brink. (2018).
+‘‘OFDM-Autoencoder for end-to-end learning of communications sys-
+tems.’’ [Online]. Available: https://arxiv.org/abs/1803.05815
+[221] T. J. O’Shea, K. Karra, and T. C. Clancy, ‘‘Learning to communicate:
+Channel auto-encoders, domain specific regularizers, and attention,’’
+in Proc. IEEE Int. Symp. Signal Process. Inf. Technol., Dec. 2016,
+pp. 223–228.
+[222] T. J. O’Shea, T. Erpek, and T. C. Clancy. (2017). ‘‘Deep learn-
+ing based MIMO communications.’’ [Online]. Available: https://arxiv.
+org/abs/1707.07980
+[223] S. Dörner, S. Cammerer, J. Hoydis, and S. ten Brink, ‘‘Deep learning
+based communication over the air,’’ IEEE J. Sel. Topics Signal Process.,
+vol. 12, no. 1, pp. 132–143, Feb. 2018.
+[224] F. A. Aoudia and J. Hoydis. (2018). ‘‘End-to-end learning of com-
+munications systems without a channel model.’’ [Online]. Available:
+https://arxiv.org/abs/1804.02276
+[225] Y. Ding and B. D. Rao, ‘‘Dictionary learning-based sparse channel repre-
+sentation and estimation for FDD massive MIMO systems,’’ IEEE Trans.
+Wireless Commun., vol. 17, no. 8, pp. 5437–5451, Aug. 2018.
+[226] World First Successful 5G Trial Using Smartphone-Sized NOMA Chipset-
+Embedded Device to Increase Spectral Efficiency, Press Release, NTT
+Docomo, Tokyo, Japan, 2017.
+[227] Z. Ding, Z. Yang, P. Fan, and H. V. Poor, ‘‘On the performance of non-
+orthogonal multiple access in 5G systems with randomly deployed users,’’
+IEEE Signal Process. Lett., vol. 21, no. 12, pp. 1501–1505, Dec. 2014.
+[228] Z.-G. Ding, M. Xu, Y. Chen, M.-G. Peng, and H. V. Poor, ‘‘Embracing
+non-orthogonalmultiple access in future wireless networks,’’ Frontiers
+Inf. Technol. Electron. Eng., vol. 19, no. 3, pp. 322–339, 2018.
+[229] R. Abozariba, M. K. Naeem, M. Patwary, M. Seyedebrahimi, and P. Bull,
+‘‘NOMA based resource allocation and mobility enhancement framework
+for IoT in next generation cellular networks,’’ IEEE Access, vol. 7,
+pp. 29158–29172, 2019.
+[230] D. A. Awan, R. L. G. Cavalcante, M. Yukawa, and S. Stanczak, ‘‘Detec-
+tion for 5G-NOMA: An online adaptive machine learning approach,’’ in
+Proc. IEEE Int. Conf. Commun., May 2018, pp. 1–6.
+[231] J. Cui, Z. Ding, and P. Fan, ‘‘The application of machine learning
+in mmWave-NOMA systems,’’ in Proc. Veh. Technol. Conf. (Spring),
+Jun. 2018, pp. 1–6.
+[232] G. Gui, H. Huang, Y. Song, and H. Sari, ‘‘Deep learning for an effec-
+tive nonorthogonal multiple access scheme,’’ IEEE Trans. Veh. Technol.,
+vol. 67, no. 9, pp. 8440–8450, Sep. 2018.
+[233] Y. Ye, G. Lu, R. Q. Hu, and L. Shi. (2019). ‘‘On the performance
+and optimization for MEC networks using uplink NOMA.’’ [Online].
+Available: https://arxiv.org/abs/1901.04149
+[234] Z. Ding, D. W. K. Ng, R. Schober, and H. V. Poor, ‘‘Delay minimization
+for NOMA-MEC offloading,’’ IEEE Signal Process. Lett., vol. 25, no. 12,
+pp. 1875–1879, Dec. 2018.
+[235] C. Clancy, J. Hecker, E. Stuntebeck, and T. O’Shea, ‘‘Applications of
+machine learning to cognitive radio networks,’’ IEEE Wireless Commun.,
+vol. 14, no. 4, pp. 47–52, Aug. 2007.
+[236] S. Singhal, S. Gupta, and A. Sinha, ‘‘Role of artificial intelligence in cog-
+nitive radio networks,’’ in Sensing Techniques for Next Generation Cogni-
+tive Radio Networks. Hershey, PA, USA: IGI Global, 2019, pp. 258–279.
+[237] P. Yang et al., ‘‘Dynamic spectrum access in cognitive radio networks
+using deep reinforcement learning and evolutionary game,’’ in Proc. IEEE
+Int. Conf. Commun. China, Aug. 2018, pp. 405–409.

@@ -1,0 +1,280 @@
+[1] S. Mumtaz et al., “Terahertz communication for vehicular networks,”
+IEEE Trans. Veh. Technol., vol. 66, no. 7, pp. 5617–5625, Jul. 2017.
+[2] “IMT traffic estimates for the years 2020 to 2030,” Int. Telecommun.
+Union, ITU-Recommedation M.2370-0, Jul. 2015.
+[3] S. J. Nawaz, S. K. Sharma, S. Wyne, M. N. Patwary, and
+M. Asaduzzaman, “Quantum machine learning for 6G communica-
+tion networks: State-of-the-art and vision for the future,” IEEE Access,
+vol. 7, pp. 46317–46350, 2019.
+[4] M. Giordani, M. Polese, M. Mezzavilla, S. Rangan, and M. Zorzi,
+“Toward 6G networks: Use cases and technologies,” IEEE Commun.
+Mag., vol. 58, no. 3, pp. 55–61, Mar. 2020.
+[5] M. Shafi et al., “5G: A tutorial overview of standards, trials, chal-
+lenges, deployment, and practice,” IEEE J. Sel. Areas Commun.,
+vol. 35, no. 6, pp. 1201–1221, Jun. 2017.
+[6] D. Zhang, Z. Zhou, S. Mumtaz, J. Rodriguez, and T. Sato, “One
+integrated energy efficiency proposal for 5G IoT communications,”
+IEEE Internet Things J., vol. 3, no. 6, pp. 1346–1354, Dec. 2016.
+[7] M. Jaber, M. A. Imran, R. Tafazolli, and A. Tukmanov, “5G backhaul
+challenges and emerging research directions: A survey,” IEEE Access,
+vol. 4, pp. 1743–1766, 2016.
+[8] J. G. Andrews et al., “What will 5G be?” IEEE J. Sel. Areas Commun.,
+vol. 32, no. 6, pp. 1065–1082, Jun. 2014.
+[9] H. Viswanathan and P. E. Mogensen, “Communications in the 6G
+era,” IEEE Access, vol. 8, pp. 57063–57074, 2020.
+[10] E. C. Strinati et al., “6G: The next frontier: From holographic mes-
+saging to artificial intelligence using subterahertz and visible light
+communication,” IEEE Veh. Technol. Mag., vol. 14, no. 3, pp. 42–50,
+Sep. 2019.
+[11] W. Saad, M. Bennis, and M. Chen, “A vision of 6G wireless systems:
+Applications, trends, technologies, and open research problems,” IEEE
+Netw., vol. 34, no. 3, pp. 134–142, May/Jun. 2020.
+[12] 6G Mobile Technology, 123 Seminars Only, Meloor, India, 2019.
+[Online]. Available: http://www.123seminarsonly.com/CS/6G-Mobile-
+Technology.html
+[13] K. David and H. Berndt, “6G vision and requirements: Is there any
+need for beyond 5G?” IEEE Veh. Technol. Mag., vol. 13, no. 3,
+pp. 72–80, Sep. 2018.
+[14] F. Tariq, M. Khandaker, K.-K. Wong, M. Imran, M. Bennis, and
+M. Debbah, “A speculative study on 6G,” 2019. [Online]. Available:
+arXiv:1902.06700.
+[15] “Key drivers and research challenges for 6G ubiquitous wireless
+intelligence,” 6G Flagship, Oulu, Finland, White Paper, Sep. 2019.
+[16] B. Li, Z. Fei, and Y. Zhang, “UAV communications for 5G and beyond:
+Recent advances and future trends,” IEEE Internet Things J., vol. 6,
+no. 2, pp. 2241–2263, Apr. 2019.
+[17] “5G evolution and 6G,” NTT DOCOMO, INC., Chiyoda City, Japan,
+White Paper, Jan. 2020.
+[18] K. B. Letaief, W. Chen, Y. Shi, J. Zhang, and Y. A. Zhang, “The
+roadmap to 6G: AI empowered wireless networks,” IEEE Commun.
+Mag., vol. 57, no. 8, pp. 84–90, Aug. 2019.
+[19] H. Zhang, M. Feng, K. Long, G. K. Karagiannidis, and
+A. Nallanathan, “Artificial intelligence-based resource allocation in
+ultradense networks: Applying event-triggered Q-learning algorithms,”
+IEEE Veh. Technol. Mag., vol. 14, no. 4, pp. 56–63, Dec. 2019.
+[20] M. Z. Chowdhury, M. T. Hossan, and Y. M. Jang, “Interference
+management based on RT/nRT traffic classification for FFR-aided
+small cell/macrocell heterogeneous networks,” IEEE Access, vol. 6,
+pp. 31340–31358, 2018.
+[21] A. S. M. Zadid Shifat, M. Z. Chowdhury, and Y. M. Jang, “Game-
+based approach for QoS provisioning and interference management
+in heterogeneous networks,” IEEE Access, vol. 6, pp. 10208–10220,
+2017.
+[22] A. J. Mahbas, H. Zhu, and J. Wang, “Impact of small cells overlapping
+on mobility management,” IEEE Trans. Wireless Commun., vol. 18,
+no. 2, pp. 1054–1068, Feb. 2019.
+[23] T. Zhou, N. Jiang, Z. Liu, and C. Li, “Joint cell activation and selection
+for green communications in ultra-dense heterogeneous networks,”
+IEEE Access, vol. 6, pp. 1894–1904, 2017.
+[24] S. Andreev, V. Petrov, M. Dohler, and H. Yanikomeroglu, “Future of
+ultra-dense networks beyond 5G: Harnessing heterogeneous moving
+cells,” IEEE Commun. Mag., vol. 57, no. 6, pp. 86–92, Jun. 2019.
+[25] (2019). 6G. [Online]. Available: http://mmwave.dei.unipd.it/
+research/6g/
+[26] A. K. Tripathy, S. Chinara, and M. Sarkar, “An application of wire-
+less brain–computer interface for drowsiness detection,” Biocybern.
+Biomed. Eng., vol. 36, no. 1, pp. 276–284, 2016.
+[27] S. R. A. Jafri et al., “Wireless brain computer interface for smart
+home and medical system,” Wireless Pers. Commun., vol. 106, no. 4,
+pp. 2163–2177, Jun. 2019.
+[28] 5G and the Haptic Internet: Emerging Technologies, Solutions and
+Market Opportunities, PR Newswire, New York, NY, USA, 2019.
+[Online]. Available: https://www.prnewswire.com/news-releases/5g-
+and-the-haptic-internet-emerging-technologies-solutions-and-market-
+opportunities-300184874.html
+[29] R. Lin et al., “Wireless battery-free body sensor networks using near-
+field-enabled clothing,” Nat. Commun., vol. 11, pp. 1–10, Jan. 2020.
+[30] R. Gravinaa, P. Aliniab, H. Ghasemzadehb, and G. Fortinoa, “Multi-
+sensor fusion in body sensor networks: State-of-the-art and research
+challenges,” Inf. Fusion, vol. 35, pp. 68–80, May 2017.
+[31] Internet of Everything (IoE), Internet Everything, London, U.K., 2019.
+[Online]. Available: https://ioe.org/
+[32] The Internet of Everything, CISCO, San Jose, CA, USA, 2019.
+[Online]. Available: https://www.cisco.com/c/dam/en_us/about/busine
+ss-insights/docs/ioe-value-at-stake-public-sector-analysis-faq.pdf
+[33] P. Yang, Y. Xiao, M. Xiao, and S. Li, “6G wireless communica-
+tions: Vision and potential techniques,” IEEE Netw., vol. 33, no. 4,
+pp. 70–75, Jul./Aug. 2019.
+[34] R. A. Stoica and G. T. F. Abreu, “6G: The wireless communica-
+tions network for collaborative and AI applications,” 2019. [Online].
+Available: arXiv:1904.03413.
+[35] L. Loven, E. Peltonen, T. Leppänen, and J. Partala, “Edge AI: A
+vision for distributed, edge-native artificial intelligence in future 6G
+networks,” in Proc. 6G Wireless Summit, Levi, Finland, Mar. 2019,
+pp. 1–2.
+[36] F. Clazzer, A. Munari, G. Liva, F. Lazaro, C. Stefanovic, and
+P. Popovski, “From 5G to 6G: Has the time for modern random
+access come?” 2019. [Online]. Available: arXiv:1903.03063.
+[37] N. H. Mahmood, H. Alves, O. A. López, M. Shehab, D. P. M. Osorio,
+and M. Latva-Aho, “Six key enablers for machine type communication
+in 6G,” 2019. [Online]. Available: arXiv:1903.05406.
+[38] J. Zhao, “A survey of intelligent reflecting surfaces (IRSs): Towards
+6G wireless communication networks,” Jul. 2019. [Online]. Available:
+arXiv:1907.04789.
+[39] I. F. Akyildiz, J. M. Jornet, and C. Han, “Terahertz band: Next frontier
+for wireless communications,” Phys. Commun., vol. 12, pp. 16–32,
+Sep. 2014.
+[40] K. Tekbıyık, A. R. Ekti, G. K. Kurt, and A. Görçinad, “Terahertz band
+communication systems: Challenges, novelties and standardization
+efforts,” Phys. Commun., vol. 35, Aug. 2019, Art. no. 100700.
+[41] “Technology trends of active services in the frequency range
+275-3 000 GHz,” Int. Telecommun. Union, ITU-Recommendation
+SM.2352-0, Jun. 2015.
+[42] M. Z. Chowdhury, M. T. Hossan, A. Islam, and Y. Min Jang, “A
+comparative survey of optical wireless technologies: Architectures and
+applications,” IEEE Access, vol. 6, pp. 9819–10220, 2018.
+[43] T. S. Rappaport et al., “Wireless communications and applications
+above 100 GHz: Opportunities and challenges for 6G and beyond,”
+IEEE Access, vol. 7, pp. 78729–78757, 2019.
+[44] M. Z. Chowdhury, M. T. Hossan, M. K. Hasan, and Y. M. Jang,
+“Integrated RF/optical wireless networks for improving QoS in indoor
+and transportation applications,” Wireless Pers. Commun., vol. 107,
+no. 3, pp. 1401–1430, Aug. 2019.
+[45] M. Z. Chowdhury, M. K. Hasan, M. Shahjalal, M. T. Hossan and
+Y. M. Jang, “Optical wireless hybrid networks: Trends, opportunities,
+challenges, and research directions,” IEEE Commun. Surveys Tuts.,
+vol. 22, no. 2, pp. 930–966, 2nd Quart., 2020.
+[46] M. T. Hossan, M. Z. Chowdhury, M. Shahjalal, and Y. M. Jang,
+“Human bond communication with head-mounted displays: Scope,
+challenges, solutions, and applications,” IEEE Commun. Mag., vol. 57,
+no. 2, pp. 26–32, Feb. 2019.
+[47] Z. Gu, J. Zhang, Y. Ji, L. Bai, and X. Sun, “Network topology reconfig-
+uration for FSO-based fronthaul/backhaul in 5G+ wireless networks,”
+IEEE Access, vol. 6, pp. 69426–69437, 2018.
+[48] A. Douik, H. Dahrouj, T. Y. Al-Naffouri, and M. Alouini, “Hybrid
+radio/free-space optical design for next generation backhaul systems,”
+IEEE Trans. Commun., vol. 64, no. 6, pp. 2563–2577, Jun. 2016.
+[49] B. Bag, A. Das, I. S. Ansari, A. Prokeš, C. Bose, and A. Chandra,
+“Performance analysis of hybrid FSO systems using FSO/RF-FSO
+link adaptation,” IEEE Photon. J., vol. 10, no. 3, pp. 1–17, Jun. 2018.
+[50] H. Zhang, Y. Dong, J. Cheng, M. J. Hossain, and V. C. M. Leung,
+“Fronthauling for 5G LTE-U ultra dense cloud small cell networks,”
+IEEE Wireless Commun., vol. 23, no. 6, pp. 48–53, Dec. 2016.
+[51] H. Gao, Y. Su, S. Zhang, and M. Diao, “Antenna selection and power
+allocation design for 5G massive MIMO uplink networks,” China
+Commun., vol. 16, no. 4, pp. 1–15, Apr. 2019.
+[52] M. Attarifar, A. Abbasfar, and A. Lozano, “Modified conjugate beam-
+forming for cell-free massive MIMO,” IEEE Wireless Commun. Lett.,
+vol. 8, no. 2, pp. 616–619, Apr. 2019.
+[53] E. Basar, M. Di Renzo, J. de Rosny, M. Debbah, M. Alouini,
+and R. Zhang, “Wireless communications through reconfigurable
+intelligent surfaces,” IEEE Access, vol. 7, pp. 116753–116773, 2019.
+[54] R. Henry, A. Herzberg, and A. Kate, “Blockchain access privacy:
+Challenges and directions,” IEEE Security Privacy, vol. 16, no. 4,
+pp. 38–45, Jul./Aug. 2018.
+[55] T. Aste, P. Tasca, and T. Di Matteo, “Blockchain technologies: The
+foreseeable impact on society and industry,” Computer, vol. 50, no. 9,
+pp. 18–28, 2017.
+[56] D. Miller, “Blockchain and the Internet of Things in the industrial
+sector,” IT Prof., vol. 20, no. 3, pp. 15–18, May/Jun. 2018.
+[57] D. C. Nguyen, P. N. Pathirana, M. Ding, and A. Seneviratne,
+“Blockchain for 5G and beyond networks: A state of the art survey,”
+J. Netw. Comput. Appl., vol. 166, Sep. 2020, Art. no. 102693.
+[58] T. Nguyen, N. Tran, L. Loven, J. Partala, M. Kechadi, and
+S. Pirttikangas, “Privacy-aware blockchain innovation for 6G:
+Challenges and opportunities,” in Proc. 2nd 6G Wireless Summit, Levi,
+Finland, Mar. 2020, pp. 1–5.
+[59] H.-N. Dai, Z. Zheng, and Y. Zhang, “Blockchain for Internet of Things:
+A survey,” Jun. 2019. [Online]. Available: arXiv:1906.00245.
+[60] C. Pan, J. Yi, C. Yin, J. Yu, and X. Li, “Joint 3D UAV placement and
+resource allocation in software-defined cellular networks with wireless
+backhaul,” IEEE Access, vol. 7, pp. 104279–104293, 2019.
+[61] M. Mozaffari, A. T. Z. Kasgari, W. Saad, M. Bennis, and M. Debbah,
+“Beyond 5G with UAVs: Foundations of a 3D wireless cellular
+network,” IEEE Trans. Wireless Commun., vol. 18, no. 1, pp. 357–372,
+Jan. 2019.
+[62] S. Dang, O. Amin, B. Shihada, and M.-S. Alouini, “What should 6G
+be?” Nat. Electron., vol. 3, pp. 20–29, Jan. 2020.
+[63] T. Huang, W. Yang, J. Wu, J. Ma, X. Zhang, and D. Zhang, “A survey
+on green 6G network: Architecture and technologies,” IEEE Access,
+vol. 7, pp. 175758–175768, 2019.
+[64] Y. Zeng, R. Zhang, and T. J. Lim, “Wireless communications
+with unmanned aerial vehicles: Opportunities and challenges,” IEEE
+Commun. Mag., vol. 54, no. 5, pp. 36–42, May 2016.
+[65] H. Wang, W. Wang, X. Chen, and Z. Zhang, “Wireless information
+and energy transfer in interference aware massive MIMO systems,”
+in Proc. IEEE Global Commun. Conf., Austin, TX, USA, 2014,
+pp. 2556–2561.
+[66] M. Kobayashi, G. Caire, and G. Kramer, “Joint state sensing and
+communication: Optimal tradeoff for a memoryless case,” May 2018.
+[Online]. Available: arXiv:1805.05713.
+[67] X. Shen et al., “AI-assisted network-slicing based next-generation
+wireless networks,” IEEE Open J. Veh. Technol., vol. 1, pp. 45–66,
+Jan. 2020.
+[68] V. Liu, A. Parks, V. Talla, S. Gollakota, D. Wetherall, and J. R. Smith,
+“Ambient backscatter: Wireless communication out of thin air,” in
+Proc. ACM SIGCOMM Conf., Aug. 2013, pp. 39–50.
+[69] S. J. Nawaz, S. K. Sharma, B. Mansoor, M. N. Patwary, and
+N. M. Khan, “Non-coherent and backscatter communications:
+Enabling ultra-massive connectivity in the era beyond 5G,” May 2020.
+[Online]. Available: arXiv:2005.10937.
+[70] C. Yi, S. Huang, and J. Cai, “An incentive mechanism integrating joint
+power, channel and link management for social-aware D2D content
+sharing and proactive caching,” IEEE Trans. Mobile Comput., vol. 17,
+no. 4, pp. 789–802, Apr. 2018.
+[71] M. Salehi and E. Hossain, “On the effect of temporal correlation on
+joint success probability and distribution of number of interferers in
+mobile UAV networks,” IEEE Wireless Commun. Lett., vol. 8, no. 6,
+pp. 1621–1625, Dec. 2019.
+[72] Q. Xia and J. M. Jornet, “Expedited neighbor discovery in direc-
+tional terahertz communication networks enhanced by antenna side-
+lobe information,” IEEE Trans. Veh. Technol., vol. 68, no. 8,
+pp. 7804–7814, Aug. 2019.
+[73] Y. Al-Eryani and E. Hossain, “The D-OMA method for massive
+multiple access in 6G: Performance, security, and challenges,” IEEE
+Veh. Technol. Mag., vol. 14, no. 3, pp. 92–99, Sep. 2019.
+[74] Z. E. Ankarali, B. Peköz, and H. Arslan, “Flexible radio access beyond
+5G: A future projection on waveform, numerology, and frame design
+principles,” IEEE Access, vol. 5, pp. 18295–18309, 2017.
+[75] X. Huang, J. A. Zhang, R. P. Liu, Y. J. Guo, and L. Hanzo, “Airplane-
+aided integrated networking for 6G wireless: Will it work?” IEEE Veh.
+Technol. Mag., vol. 14, no. 3, pp. 84–91, Sep. 2019.
+[76] M. Katz, M. Matinmikko-Blue, and M. Latva-Aho, “6Genesis flagship
+program: Building the bridges towards 6G-enabled wireless smart
+society and ecosystem,” in Proc. 10th Latin Amer. Conf. Commun.
+(LATINCOM), Guadalajara, Mexico, 2018, pp. 1–9.
+[77] D. Elliott, W. Keen, and L. Miao, “Recent advances in connected and
+automated vehicles,” J. Traffic Transp. Eng., vol. 6, no. 2, pp. 109–131,
+Apr. 2019.
+[78] S. Zhang, C. Xiang, and S. Xu, “6G: Connecting everything by
+1000 times price reduction,” IEEE Open J. Veh. Technol., vol. 1,
+pp. 107–115, Mar. 2020.
+[79] G. Gui, M. Liu, F. Tang, N. Kato, and F. Adachi, “6G:
+Opening new horizons for integration of comfort, security and
+intelligence,” IEEE Wireless Commun., early access, Mar. 03, 2020,
+doi: 10.1109/MWC.001.1900516.
+[80] L. Zhang, Y. Liang, and D. Niyato, “6G visions: Mobile ultra-
+broadband, super Internet-of-Things, and artificial intelligence,” China
+Commun., vol. 16, no. 8, pp. 1–14, Aug. 2019.
+[81] I. Tomkos, D. Klonidis, E. Pikasis, and S. Theodoridis, “Toward the
+6G network era: Opportunities and challenges,” IT Prof., vol. 22, no. 1,
+pp. 34–38, Jan./Feb. 2020.
+[82] E. Yaacoub and M. Alouini, “A key 6G challenge and opportunity—
+Connecting the base of the pyramid: A survey on rural connectivity,”
+Proc. IEEE, vol. 108, no. 4, pp. 533–582, Apr. 2020.
+[83] B. Mao, Y. Kawamoto, and N. Kato, “AI-based joint optimization
+of QoS and security for 6G energy harvesting Internet of
+Things,” IEEE Internet Things J., early access, Mar. 23, 2020,
+doi: 10.1109/JIOT.2020.2982417.
+[84] R. Shafin, L. Liu, V. Chandrasekhar, H. Chen, J. Reed, and J. C. Zhang,
+“Artificial intelligence-enabled cellular networks: A critical path
+to beyond-5G and 6G,” IEEE Wireless Commun., vol. 27, no. 2,
+pp. 212–217, Apr. 2020.
+[85] M. S. Sim, Y. Lim, S. H. Park, L. Dai, and C. Chae, “Deep
+learning-based mmWave beam selection for 5G NR/6G with sub-
+6 GHz channel information: Algorithms and prototype validation,”
+IEEE Access, vol. 8, pp. 51634–51646, 2020.
+[86] F. Tang, Y. Kawamoto, N. Kato, and J. Liu, “Future intelligent and
+secure vehicular network toward 6G: Machine-learning approaches,”
+Proc. IEEE, vol. 108, no. 2, pp. 292–307, Feb. 2020.
+[87] Y. Zhang, B. Di, P. Wang, J. Lin, and L. Song, “HetMEC:
+Heterogeneous multi-layer mobile edge computing in the 6G era,”
+IEEE Trans. Veh. Technol., vol. 69, no. 4, pp. 4388–4400, Apr. 2020.
+[88] Y. Golovachev, A. Etinger, G. A. Pinhasi, and Y. Pinhasi, “Propagation
+properties of sub-millimeter waves in foggy conditions,” J. Appl. Phys.,
+vol. 125, Apr. 2019, Art. no. 151612.
+[89] M. N. Patwary, S. Junaid Nawaz, M. A. Rahman, S. K. Sharma,
+M. M. Rashid, and S. J. Barnes, “The potential short- and long-term
+disruptions and transformative impacts of 5G and beyond wireless
+networks: Lessons learnt from the development of a 5G testbed
+environment,” IEEE Access, vol. 8, pp. 11352–11379, 2020.
