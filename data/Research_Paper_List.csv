@@ -1,0 +1,52 @@
+id,DOI,title
+0,10.1109/OJCOMS.2020.3010270,"6G Wireless Communication Systems: Applications, Requirements, Technologies, Challenges, and Research Directions"
+1,10.1109/TVT.2017.2712878,Terahertz communication for vehicular networks
+2,10.1109/ACCESS.2019.2909490,Quantum machine learning for 6G communica-tion networks: State-of-the-art and vision for the future
+3,10.1109/MCOM.001.1900411,Toward 6G networks: Use cases and technologies
+4,10.1109/JSAC.2017.2692307,"5G: A tutorial overview of standards, trials, chal-lenges, deployment, and practice"
+5,10.1109/JIOT.2016.2599852,Oneintegrated energy efficiency proposal for 5G IoT communications
+6,10.1109/ACCESS.2016.2556011,5G backhaulchallenges and emerging research directions: A survey
+7,10.1109/JSAC.2014.2328098,What will 5G be
+8,10.1109/MVT.2019.2921162,6G: The next frontier: From holographic mes-saging to artificial intelligence using subterahertz and visible lightcommunication
+9,10.1109/MNET.001.1900287,"A vision of 6G wireless systems:Applications, trends, technologies, and open research problems"
+10,10.1109/MVT.2018.2848498,6G vision and requirements: Is there anyneed for beyond 5G
+11,10.1109/JIOT.2018.2887086,UAV communications for 5G and beyond:Recent advances and future trends
+12,10.1109/MCOM.2019.1900271,Theroadmap to 6G: AI empowered wireless networks
+13,10.1109/MVT.2019.2938328,Artificial intelligence-based resource allocation inultradense networks: Applying event-triggered Q-learning algorithms
+14,10.1109/ACCESS.2018.2844843,Interferencemanagement based on RT/nRT traffic classification for FFR-aidedsmall cell/macrocell heterogeneous networks
+15,10.1109/ACCESS.2017.2704094,Game-based approach for QoS provisioning and interference managementin heterogeneous networks
+16,10.1109/TWC.2018.2889465,Impact of small cells overlappingon mobility management
+17,10.1109/ACCESS.2017.2780818,Joint cell activation and selectionfor green communications in ultra-dense heterogeneous networks
+18,10.1109/MCOM.2019.1800056,Future ofultra-dense networks beyond 5G: Harnessing heterogeneous movingcells
+19,10.1109/MNET.2019.1800418,6G wireless communica-tions: Vision and potential techniques
+20,10.1109/ACCESS.2018.2792419,Acomparative survey of optical wireless technologies: Architectures andapplications
+21,10.1109/ACCESS.2019.2921522,Wireless communications and applicationsabove 100 GHz: Opportunities and challenges for 6G and beyond
+22,10.1109/COMST.2020.2966855,"Optical wireless hybrid networks: Trends, opportunities,challenges, and research directions"
+23,10.1109/MCOM.2018.1800527,"Human bond communication with head-mounted displays: Scope,challenges, solutions, and applications"
+24,10.1109/ACCESS.2018.2880880,Network topology reconfig-uration for FSO-based fronthaul/backhaul in 5G+ wireless networks
+25,10.1109/TCOMM.2016.2557789,Hybridradio/free-space optical design for next generation backhaul systems
+26,10.1109/JPHOT.2018.2837356,Performance analysis of hybrid FSO systems using FSO/RF-FSOlink adaptation
+27,10.1109/MWC.2016.1600066WC,Fronthauling for 5G LTE-U ultra dense cloud small cell networks
+28,10.1109/LWC.2018.2890470,Modified conjugate beam-forming for cell-free massive MIMO
+29,10.1109/ACCESS.2019.2935192,Wireless communications through reconfigurableintelligent surfaces
+30,10.1109/MSP.2018.3111245,Blockchain access privacy:Challenges and directions
+31,10.1109/ACCESS.2019.2927521,Joint 3D UAV placement andresource allocation in software-defined cellular networks with wirelessbackhaul
+32,10.1109/TWC.2018.2879940,Beyond 5G with UAVs: Foundations of a 3D wireless cellularnetwork
+33,10.1109/ACCESS.2019.2957648,A surveyon green 6G network: Architecture and technologies
+34,10.1109/MCOM.2016.7470933,Wireless communicationswith unmanned aerial vehicles: Opportunities and challenges
+35,10.1109/GLOCOM.2014.7037192,Wireless informationand energy transfer in interference aware massive MIMO systems
+36,10.1109/OJVT.2020.2965100,AI-assisted network-slicing based next-generationwireless networks
+37,10.1109/TMC.2017.2741481,"An incentive mechanism integrating jointpower, channel and link management for social-aware D2D contentsharing and proactive caching"
+38,10.1109/LWC.2019.2932435,On the effect of temporal correlation onjoint success probability and distribution of number of interferers inmobile UAV networks
+39,10.1109/TVT.2019.2924820,Expedited neighbor discovery in direc-tional terahertz communication networks enhanced by antenna side-lobe information
+40,10.1109/MVT.2019.2919279,"The D-OMA method for massivemultiple access in 6G: Performance, security, and challenges"
+41,10.1109/ACCESS.2017.2684783,"Flexible radio access beyond5G: A future projection on waveform, numerology, and frame designprinciples"
+42,10.1109/MVT.2019.2921244,Airplane-aided integrated networking for 6G wireless: Will it work
+43,10.1109/OJVT.2020.2980003,6G: Connecting everything by1000 times price reduction
+44,10.1109/MWC.001.1900516,"6G:Opening new horizons for integration of comfort, security andintelligence"
+45,10.1109/JPROC.2020.2976703,A key 6G challenge and opportunity—Connecting the base of the pyramid: A survey on rural connectivity
+46,10.1109/JIOT.2020.2982417,AI-based joint optimizationof QoS and security for 6G energy harvesting Internet ofThings
+47,10.1109/MWC.001.1900323,Artificial intelligence-enabled cellular networks: A critical pathto beyond-5G and 6G
+48,10.1109/ACCESS.2020.2980285,Deeplearning-based mmWave beam selection for 5G NR/6G with sub-6 GHz channel information: Algorithms and prototype validation
+49,10.1109/JPROC.2019.2954595,Future intelligent andsecure vehicular network toward 6G: Machine-learning approaches
+50,10.1109/TVT.2020.2975559,HetMEC:Heterogeneous multi-layer mobile edge computing in the 6G era

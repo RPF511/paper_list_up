@@ -1,0 +1,85 @@
+,id,title
+0,0,"6G Wireless Communication Systems: Applications, Requirements, Technologies, Challenges, and Research Directions"
+1,1,Terahertz communication for vehicular networks
+2,-1,IMT traffic estimates for the years 2020 to 2030
+3,2,Quantum machine learning for 6G communica-tion networks: State-of-the-art and vision for the future
+4,3,Toward 6G networks: Use cases and technologies
+5,4,"5G: A tutorial overview of standards, trials, chal-lenges, deployment, and practice"
+6,5,Oneintegrated energy efficiency proposal for 5G IoT communications
+7,6,5G backhaulchallenges and emerging research directions: A survey
+8,7,What will 5G be
+9,-1,Communications in the 6Gera
+10,8,6G: The next frontier: From holographic mes-saging to artificial intelligence using subterahertz and visible lightcommunication
+11,9,"A vision of 6G wireless systems:Applications, trends, technologies, and open research problems"
+13,10,6G vision and requirements: Is there anyneed for beyond 5G
+14,-1,A speculative study on 6G
+15,-1,Key drivers and research challenges for 6G ubiquitous wirelessintelligence
+16,11,UAV communications for 5G and beyond:Recent advances and future trends
+17,-1,5G evolution and 6G
+18,12,Theroadmap to 6G: AI empowered wireless networks
+19,13,Artificial intelligence-based resource allocation inultradense networks: Applying event-triggered Q-learning algorithms
+20,14,Interferencemanagement based on RT/nRT traffic classification for FFR-aidedsmall cell/macrocell heterogeneous networks
+21,15,Game-based approach for QoS provisioning and interference managementin heterogeneous networks
+22,16,Impact of small cells overlappingon mobility management
+23,17,Joint cell activation and selectionfor green communications in ultra-dense heterogeneous networks
+24,18,Future ofultra-dense networks beyond 5G: Harnessing heterogeneous movingcells
+26,-1,An application of wire-less brain–computer interface for drowsiness detection
+27,-1,Wireless brain computer interface for smarthome and medical system
+29,-1,Wireless battery-free body sensor networks using near-field-enabled clothing
+30,-1,Multi-sensor fusion in body sensor networks: State-of-the-art and researchchallenges
+33,19,6G wireless communica-tions: Vision and potential techniques
+34,-1,6G: The wireless communica-tions network for collaborative and AI applications
+35,-1,"Edge AI: Avision for distributed, edge-native artificial intelligence in future 6Gnetworks"
+36,-1,From 5G to 6G: Has the time for modern randomaccess come
+37,-1,Six key enablers for machine type communicationin 6G
+38,-1,A survey of intelligent reflecting surfaces (IRSs): Towards6G wireless communication networks
+39,-1,Terahertz band: Next frontierfor wireless communications
+40,-1,"Terahertz bandcommunication systems: Challenges, novelties and standardizationefforts"
+41,-1,Technology trends of active services in the frequency range275-3 000 GHz
+42,20,Acomparative survey of optical wireless technologies: Architectures andapplications
+43,21,Wireless communications and applicationsabove 100 GHz: Opportunities and challenges for 6G and beyond
+44,-1,Integrated RF/optical wireless networks for improving QoS in indoorand transportation applications
+45,22,"Optical wireless hybrid networks: Trends, opportunities,challenges, and research directions"
+46,23,"Human bond communication with head-mounted displays: Scope,challenges, solutions, and applications"
+47,24,Network topology reconfig-uration for FSO-based fronthaul/backhaul in 5G+ wireless networks
+48,25,Hybridradio/free-space optical design for next generation backhaul systems
+49,26,Performance analysis of hybrid FSO systems using FSO/RF-FSOlink adaptation
+50,27,Fronthauling for 5G LTE-U ultra dense cloud small cell networks
+51,-1,Antenna selection and powerallocation design for 5G massive MIMO uplink networks
+52,28,Modified conjugate beam-forming for cell-free massive MIMO
+53,29,Wireless communications through reconfigurableintelligent surfaces
+54,30,Blockchain access privacy:Challenges and directions
+55,-1,Blockchain technologies: Theforeseeable impact on society and industry
+56,-1,Blockchain and the Internet of Things in the industrialsector
+57,-1,Blockchain for 5G and beyond networks: A state of the art survey
+58,-1,Privacy-aware blockchain innovation for 6G:Challenges and opportunities
+59,-1,Blockchain for Internet of Things:A survey
+60,31,Joint 3D UAV placement andresource allocation in software-defined cellular networks with wirelessbackhaul
+61,32,Beyond 5G with UAVs: Foundations of a 3D wireless cellularnetwork
+62,-1,What should 6Gbe
+63,33,A surveyon green 6G network: Architecture and technologies
+64,34,Wireless communicationswith unmanned aerial vehicles: Opportunities and challenges
+65,35,Wireless informationand energy transfer in interference aware massive MIMO systems
+66,-1,Joint state sensing andcommunication: Optimal tradeoff for a memoryless case
+67,36,AI-assisted network-slicing based next-generationwireless networks
+68,-1,Ambient backscatter: Wireless communication out of thin air
+69,-1,Non-coherent and backscatter communications:Enabling ultra-massive connectivity in the era beyond 5G
+70,37,"An incentive mechanism integrating jointpower, channel and link management for social-aware D2D contentsharing and proactive caching"
+71,38,On the effect of temporal correlation onjoint success probability and distribution of number of interferers inmobile UAV networks
+72,39,Expedited neighbor discovery in direc-tional terahertz communication networks enhanced by antenna side-lobe information
+73,40,"The D-OMA method for massivemultiple access in 6G: Performance, security, and challenges"
+74,41,"Flexible radio access beyond5G: A future projection on waveform, numerology, and frame designprinciples"
+75,42,Airplane-aided integrated networking for 6G wireless: Will it work
+76,-1,6Genesis flagshipprogram: Building the bridges towards 6G-enabled wireless smartsociety and ecosystem
+77,-1,Recent advances in connected andautomated vehicles
+78,43,6G: Connecting everything by1000 times price reduction
+79,44,"6G:Opening new horizons for integration of comfort, security andintelligence"
+80,-1,"6G visions: Mobile ultra-broadband, super Internet-of-Things, and artificial intelligence"
+81,-1,Toward the6G network era: Opportunities and challenges
+82,45,A key 6G challenge and opportunity—Connecting the base of the pyramid: A survey on rural connectivity
+83,46,AI-based joint optimizationof QoS and security for 6G energy harvesting Internet ofThings
+84,47,Artificial intelligence-enabled cellular networks: A critical pathto beyond-5G and 6G
+85,48,Deeplearning-based mmWave beam selection for 5G NR/6G with sub-6 GHz channel information: Algorithms and prototype validation
+86,49,Future intelligent andsecure vehicular network toward 6G: Machine-learning approaches
+87,50,HetMEC:Heterogeneous multi-layer mobile edge computing in the 6G era
+88,-1,Propagationproperties of sub-millimeter waves in foggy conditions
