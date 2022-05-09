@@ -1,0 +1,229 @@
+,id,title
+0,2,Quantum machine learning for 6G communica-tion networks: State-of-the-art and vision for the future
+2,51,A survey of 5G network: Architecture andemerging technologies
+3,52,Towards massive connectivity support for scal-able mMTC communications in 5G networks
+4,-1,Towards massive machinetype communications in ultra-dense cellular IoT networks: Currentissues and machine learning-assisted solutions
+5,-1,Open issues and beyond 5G
+6,10,6G vision and requirements: Is there any needfor beyond 5G
+7,-1,A speculative study on 6G
+8,-1,6G: The next frontier
+9,-1,"A vision of 6Gwireless systems: Applications, trends, technologies, and open researchproblems"
+11,-1,Thirty years of machine learning: The road to Pareto-optimal next-generation wireless networks
+12,53,"Big data analytics, machine learning, and artificial intelligence in next-generation wireless networks"
+13,-1,When machine learningmeets big data: A wireless communication perspective
+14,54,Collaborative distributed Q-learning forRACH congestion minimization in cellular IoT networks
+15,55,A very brief introduction to machine learning with appli-cations to communication systems
+16,-1,Deep learning inmobile and wireless networking: A survey
+17,-1,"Wireless networksdesign in the era of deep learning: Model-based, AI-based, or both"
+18,-1,Channelagnostic end-to-end learning based communication systems with condi-tional GAN
+19,56,An introduction to deep learning for the physi-cal layer
+20,57,Power of deep learning for channelestimation and signal detection in OFDM systems
+21,58,Deep reinforcement learning for resource allocationin V2V communications
+22,59,Propagationchannels for mmWave vehicular communications: State-of-the-art andfuture research directions
+23,-1,Deep learning-basedchannel estimation for beamspace mmWave massive MIMO systems
+24,60,Machine learningfor vehicular networks: Recent advances and application examples
+25,61,Deep learningconvolutional neural networks for radio identification
+26,62,On a novel deep-learning-based intelligent partially overlapping channel assignment inSDN-IoT
+27,63,Enabling cognitive smart citiesusing big data and machine learning: Approaches and challenges
+28,-1,Quantum computing is exciting and important-really
+29,-1,A survey on quantum computing technol-ogy
+30,64,Quantum algorithms for wireless communications
+31,-1,The quantum dynamic capacity for-mula of a quantum channel
+32,65,EXIT-chart aided quantum code design improvesthe normalised throughput of realistic quantum devices
+33,66,Quantum-aided multi-objective routing optimizationusing back-tracing-aided dynamic programming
+34,67,Quantum turbo decoding for quantum channelsexhibiting memory
+35,68,Quantum-assisted indoor localization for uplink mm-Wave and downlink visible light communication systems
+36,69,Quantum-assisted joint multi-objective routing and load balancing forsocially-aware networks
+37,70,Joint quantum-assisted channel estimation and data detection
+38,71,Quantum-aided multi-user transmission innon-orthogonal multiple access systems
+39,-1,A future with quantum machine learning
+40,-1,Universal discriminative quantum neural networks
+41,-1,Quantum machine learning
+42,-1,Quantum algorithmsfor supervised and unsupervised machine learning
+43,-1,Quantum-enhanced machinelearning
+45,4,"5G: A tutorial overview of standards, trials, challenges,deployment, and practice"
+46,7,What will 5G be
+47,72,Millimeter-wave communication with out-of-band information
+48,73,Energy and spectral effi-ciency of very large multiuser MIMO systems
+49,74,Optimal cell load and throughput in green small cellnetworks with generalized cell association
+51,75,Network function virtualization: State-of-the-art andresearch challenges
+52,76,"Network slicing and softwarization: A survey on principles, enablingtechnologies, and solutions"
+53,77,Mobile edge com-puting: A survey
+54,78,Intelligent 5G: When cellular networks meet artificialintelligence
+55,79,Live data analytics with collaborative edgeand cloud processing in wireless IoT networks
+56,80,5G-enabledtactile Internet
+57,-1,A guide to wireless networking bylight
+58,81,Dynamic spectrum sharing in 5G wireless networks withfull-duplex technology: Recent advances and research challenges
+59,82,UAV trajectory optimization for data offloading atthe edge of multiple cells
+60,83,Spatialspectrum sharing for satellite and terrestrial communication networks
+61,84,Analysis of spectrum occupancy usingmachine learning algorithms
+62,85,A survey of energy-efficient techniques for 5G networks and challengesahead
+63,86,A new wireless communication paradigm through software-controlled metasurfaces
+65,87,Simultaneous wireless information and power transfer (SWIPT):Recent advances and future challenges
+66,88,Proactive content caching byexploiting transfer learning for mobile edge computing
+67,89,Mobility-aware edge caching and computingin vehicle networks: A deep reinforcement learning
+68,90,A wireless optical backhaul solutionfor optical attocell networks
+69,91,Shared access satellite-terrestrial reconfigurable back-haul network enabled by smart antennas at mmwave band
+70,92,Distributed caching enabled peak trafficreduction in ultra-dense IoT networks
+71,93,A surveyof physical layer security techniques for 5G wireless networks and chal-lenges ahead
+72,94,Machine learning and deep learning methods for cyberse-curity
+73,95,Lightweight quantum encryption forsecure transmission of power data in smart grid
+74,96,Neural network basedMIMO-OFDM channel equalizer using comb-type pilot arrangement
+75,-1,Learning assisted estimation for time- vary-ing channels
+76,97,Airborne Internet access through submarine optical fiber cables
+77,98,Echo state networks forproactive caching in cloud-based radio access networks with mobileusers
+78,-1,Self-organizing networks: A packet scheduling approach for cover-age/capacity optimization in 4G networks using reinforcement learning
+79,-1,Multi-agent deep reinforcement learningfor dynamic power allocation in wireless networks
+80,99,Joint transmit/receive antenna selection for MIMO systems:A real-valued genetic approach
+81,100,Selecting array con-figurations for MIMO systems: An evolutionary computation approach
+82,101,Power control of cellularradio systems via robust Smith prediction filter
+83,102,Joint receive antenna selection and symboldetection for MIMO systems: A heterogeneous genetic approach
+84,-1,GAbased estimation of sparse MIMO channels with superimposed training
+85,-1,Evolutionary algorithms for wireless communications—A review of the state-of-the art
+86,-1,GA based sensing of sparse multipath channels withsuperimposed training sequence
+87,-1,Cognitive radioswith genetic algorithms: Intelligent control of software defined radios
+88,-1,Predicting wireless channel features using neural networks
+89,51,A com-prehensive survey of recent advancements in molecular communication
+90,-1,Receiver design in molecular communica-tions: An approach based on artificial neural networks
+91,-1,WLAN–based indoor localization using neuralnetworks
+92,-1,A deep learning framework for optimization of MISO downlinkbeamforming
+93,103,Deep learning in physicallayer communications
+94,104,"Learning radio resource management in RANs: Framework,opportunities, and challenges"
+95,-1,User associationand load balancing for massive MIMO through deep learning
+96,-1,Applications of deep reinforcement learn-ing in communications and networking: A survey
+97,105,A novel PAPR reduction scheme forOFDM system based on deep learning
+98,-1,Learning to detect
+99,-1,Deepconvolutional neural networks for massive MIMO fingerprint-based posi-tioning
+100,-1,Deep learningfor wireless physical layer: Opportunities and challenges
+101,106,Learn-ing to optimize: Training deep neural networks for wireless resourcemanagement
+102,107,Online energy-efficient powercontrol in wireless networks by deep neural networks
+103,108,A survey on transfer learning
+104,-1,A survey ondeep transfer learning
+105,-1,Deep unfolding:Model-based inspiration of novel deep architectures
+106,-1,Deep learning detection net-works in MIMO decode-forward relay channels
+107,-1,NeXtgeneration/dynamic spectrum access/cognitive radio wireless networks:A survey
+108,109,Cognitive radio techniques under practical imperfections:A survey
+109,110,Machine learn-ing techniques for cooperative spectrum sensing in cognitive radio net-works
+110,111,Intelligentpower control for spectrum sharing in cognitive radios: A deep rein-forcement learning approach
+111,112,Spectrum sharingoptimization in cellular networks under target performance and budgetrestriction
+112,-1,Machine learning for cognitive net-works: Technology assessment and research challenges
+113,-1,A survey of self-organizing networks
+114,113,A survey on machine-learningtechniques in cognitive radios
+115,114,Machine learning for cognitive network management
+117,-1,Quantum computation and quantuminformation
+118,115,Quantum communications: Explained for communication engi-neers
+119,-1,Quantum communications
+120,-1,Quantum communications: An engineering approach
+121,116,A survey on quantum channelcapacities
+122,-1,A single quantum cannot be cloned
+123,117,Entanglement-assisted capacity of a quantum channel and the reverseShannon theorem
+124,118,The private classical capacity and quantum capacity of aquantum channel
+125,119,Identifying the informationgain of a quantum measurement
+126,-1,Analysis of quantum key distribution basedsatellite communication
+127,-1,Quantum key distribution technologies
+128,-1,Teleporting an unknown quantum state via dual clas-sical and einstein-podolsky-rosen channels
+129,-1,Communication via one- and two-particle operators on Einstein-Podolsky-Rosen states
+130,120,Quantum spread spec-trum multiple access
+131,121,The quantum theory of optical communications
+132,122,Feasibility ofquantum communications in aquatic scenario
+133,123,Terahertz essential devices technique research based on quantumcommunication
+134,124,Quantum communication forwireless wide-area networks
+135,-1,Evidence for quantum annealing with more than onehundred qubits
+136,125,The capacity of the quantum channel with general signalstates
+137,-1,Capacity of the noisy quantum channel
+138,-1,The capacity of a quantum channel for simul-taneous transmission of classical and quantum information
+139,126,Entanglement-assisted communicationof classical and quantum information
+140,-1,"Trading classical communication, quan-tum communication, and entanglement in quantum Shannon theory"
+141,-1,Entanglement-assistedquantum turbo codes
+142,-1,The squashed entangle-ment of a quantum channel
+143,127,Consequences ofmany-cell correlations in clocked quantum-dot cellular automata
+144,128,A device architecture for computing withquantum dots
+145,-1,Quantum-dot cellularautomata: Theory and application
+146,129,Automateddesign architecture for 1-D cellular automata using quantum cellularautomata
+147,130,Design of generalized pipeline cellulararray in quantum-dot cellular automata
+148,131,A signal distribution networkfor sequential quantum-dot cellular automata systems
+149,-1,A survey of quantum-like approachesto decision making and cognition
+150,-1,Quantitative predictions in quantumdecision theory
+152,-1,Long-distance trust-free quantum keydistribution
+153,-1,Scheme of thinking quantum systems
+154,-1,An introductory review on quantumgame theory
+155,-1,Qubit devices and the issue of quantum decoherence
+156,-1,Exploiting randomness in quantum infor-mation processing
+157,-1,A survey of the current status of research onquantum games
+158,-1,Variations on classical andquantum extractors
+159,51,The bounded-storage model in thepresence of a quantum adversary
+160,-1,Quantum-proof randomnessextractors via operator space theory
+161,-1,Extracting randomness viarepeated condensing
+162,132,"Quantum search algorithms,quantum wireless, and a low-complexity maximum likelihood iterativequantum multi-user detector design"
+163,133,Low-complexity soft-output quantum-assisted multiuser detection for direct-sequence spread-ing and slow subcarrier-hopping aided SDMA-OFDM systems
+164,134,Fixed-complexity quantum-assistedmulti-user detection for CDMA and SDMA
+165,135,Iterativequantum-assisted multi-user detection for multi-carrier interleave divi-sion multiple access systems
+166,136,Quan-tum search-aided multi-user detection of IDMA-assisted multi-layeredvideo streaming
+167,137,The impact of nodeselfishness on multicasting in delay tolerant networks
+168,138,Quantum-assistedrouting optimization for self-organizing networks
+169,139,Joint channel estimation anddata detection in MIMO-OFDM systems: A sparse Bayesian learningapproach
+170,140,Joint channel estima-tion and multiuser detection for SDMA/OFDM based on dual repeatedweighted boosting search
+172,-1,"Quantum computing and super-vised machine learning: Training, model selection, and error estima-tion"
+173,-1,Quantum speed-up for unsuper-vised learning
+174,-1,Quantum reinforce-ment learning
+175,-1,Advances in quantumreinforcement learning
+176,141,A quantum inspired reinforce-ment learning technique for beyond next generation wireless networks
+177,-1,Towards quantum machine learning with tensor networks
+178,-1,A quantum machine learn-ing algorithm based on generative models
+179,-1,An algorithm of quantum restrictedboltzmann machine network based on quantum gates and its application
+180,-1,Quantumdeep learning neural networks
+181,142,Quantum neural networks(QNNs): Inherently fuzzy feedforward neural networks
+182,-1,Quantum neural network
+183,-1,Quantum neural networks
+184,-1,Quantum perceptron models
+185,-1,Quantum support vectormachine for big data classification
+186,-1,Quantum sparse support vectormachines
+187,143,Sparse representationfor wireless communications: A compressive sensing approach
+188,-1,Application of quantumannealing to training of deep neural networks
+189,-1,Quantum deep learn-ing
+190,-1,Distributed secure quantum machine learn-ing
+191,-1,A survey towards an integration of big data ana-lytics to big insights for value-creation
+192,-1,Quantum gate learning in qubitnetworks: Toffoli gate without time-dependent control
+193,-1,Quantum computing in the NISQ era and beyond
+194,-1,"Future directions of quantum informationprocessing: A workshop on the emerging science and technology ofquantum computation, communication, and measurement"
+195,-1,Google moves toward quantum supremacy with 72-qubitcomputer
+196,-1,A space-efficient quantum computer simulator suitable for high-speed FPGAimplementation
+197,-1,A grid enabled quantum com-puter simulator
+198,-1,Competitive cachingwith machine learned advice
+199,-1,A deep reinforcementlearning-based framework for content caching
+200,144,Learn to cache:Machine learning for network edge caching in the big data era
+201,-1,A quantumapproximate optimization algorithm
+202,145,Multi-objective routingoptimization using evolutionary algorithms
+203,-1,Multi-task learning as multi-objective optimiza-tion
+204,146,Quantum computing in big data analytics:A survey
+205,-1,Emerging trends ofgreen IoT for smart world
+206,-1,Goinggreen with IoT for smart world-an overview
+207,147,A survey on network methodologies for real-time analytics of massiveIoT data and open research issues
+208,-1,Towardsthe science of security and privacy in machine learning
+209,-1,Machine learning based antennadesign for physical layer security in ambient backscatter communi-cations
+210,148,Training-based antenna selection for PER minimization: A POMDPapproach
+211,149,Learning and data-driven beam selectionfor mmWave communications: An angle of arrival-based approach
+212,150,Learning state selection for reconfig-urable antennas: A multi-armed bandit approach
+213,-1,Accelerating beamsweeping in mmWave standalone 5G new radios using recurrent neuralnetworks
+214,-1,Machine learning algorithm forwireless indoor localization
+215,151,Indoor localization usingvisible light via fusion of multiple classifiers
+216,-1,Terabit free-space data transmission employing orbitalangular momentum multiplexing
+217,152,Adaptive demodulator using machinelearning for orbital angular momentum shift keying
+218,-1,Analysis of an adaptive orbital angular momentumshift keying decoder based on machine learning under oceanic turbulencechannels
+219,-1,Ubiquitous cell-free massive MIMOcommunications
+220,-1,OFDM-Autoencoder for end-to-end learning of communications sys-tems
+221,153,"Learning to communicate:Channel auto-encoders, domain specific regularizers, and attention"
+222,-1,Deep learn-ing based MIMO communications
+223,154,Deep learningbased communication over the air
+224,-1,End-to-end learning of com-munications systems without a channel model
+225,155,Dictionary learning-based sparse channel repre-sentation and estimation for FDD massive MIMO systems
+227,156,On the performance of non-orthogonal multiple access in 5G systems with randomly deployed users
+228,-1,Embracingnon-orthogonalmultiple access in future wireless networks
+229,157,NOMA based resource allocation and mobility enhancement frameworkfor IoT in next generation cellular networks
+230,158,Detec-tion for 5G-NOMA: An online adaptive machine learning approach
+231,-1,The application of machine learningin mmWave-NOMA systems
+232,159,Deep learning for an effec-tive nonorthogonal multiple access scheme
+233,-1,On the performanceand optimization for MEC networks using uplink NOMA
+234,160,Delay minimizationfor NOMA-MEC offloading
+235,161,Applications ofmachine learning to cognitive radio networks
+236,-1,Role of artificial intelligence in cog-nitive radio networks

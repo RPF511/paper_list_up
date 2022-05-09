@@ -50,3 +50,114 @@ id,DOI,title
 48,10.1109/ACCESS.2020.2980285,Deeplearning-based mmWave beam selection for 5G NR/6G with sub-6 GHz channel information: Algorithms and prototype validation
 49,10.1109/JPROC.2019.2954595,Future intelligent andsecure vehicular network toward 6G: Machine-learning approaches
 50,10.1109/TVT.2020.2975559,HetMEC:Heterogeneous multi-layer mobile edge computing in the 6G era
+51,,A survey of 5G network: Architecture andemerging technologies
+52,10.1109/ACCESS.2018.2837382,Towards massive connectivity support for scal-able mMTC communications in 5G networks
+53,10.1109/ACCESS.2018.2837692,"Big data analytics, machine learning, and artificial intelligence in next-generation wireless networks"
+54,10.1109/LCOMM.2019.2896929,Collaborative distributed Q-learning forRACH congestion minimization in cellular IoT networks
+55,10.1109/TCCN.2018.2881442,A very brief introduction to machine learning with appli-cations to communication systems
+56,10.1109/TCCN.2017.2758370,An introduction to deep learning for the physi-cal layer
+57,10.1109/LWC.2017.2757490,Power of deep learning for channelestimation and signal detection in OFDM systems
+58,10.1109/ICC.2018.8422586,Deep reinforcement learning for resource allocationin V2V communications
+59,10.1109/MWC.2018.1800174,Propagationchannels for mmWave vehicular communications: State-of-the-art andfuture research directions
+60,10.1109/MVT.2018.2811185,Machine learningfor vehicular networks: Recent advances and application examples
+61,10.1109/MCOM.2018.1800153,Deep learningconvolutional neural networks for radio identification
+62,10.1109/MCOM.2018.1701227,On a novel deep-learning-based intelligent partially overlapping channel assignment inSDN-IoT
+63,10.1109/MCOM.2018.1700298,Enabling cognitive smart citiesusing big data and machine learning: Approaches and challenges
+64,10.1109/COMST.2018.2882385,Quantum algorithms for wireless communications
+65,10.1109/ACCESS.2016.2591910,EXIT-chart aided quantum code design improvesthe normalised throughput of realistic quantum devices
+66,10.1109/TVT.2018.2822626,Quantum-aided multi-objective routing optimizationusing back-tracing-aided dynamic programming
+67,10.1109/ACCESS.2018.2808373,Quantum turbo decoding for quantum channelsexhibiting memory
+68,10.1109/ACCESS.2017.2733557,Quantum-assisted indoor localization for uplink mm-Wave and downlink visible light communication systems
+69,10.1109/ACCESS.2016.2629671,Quantum-assisted joint multi-objective routing and load balancing forsocially-aware networks
+70,10.1109/ACCESS.2016.2591903,Joint quantum-assisted channel estimation and data detection
+71,10.1109/ACCESS.2016.2591904,Quantum-aided multi-user transmission innon-orthogonal multiple access systems
+72,10.1109/MCOM.2017.1700207,Millimeter-wave communication with out-of-band information
+73,10.1109/TCOMM.2013.020413.110848,Energy and spectral effi-ciency of very large multiuser MIMO systems
+74,10.1109/JSAC.2016.2520218,Optimal cell load and throughput in green small cellnetworks with generalized cell association
+75,10.1109/COMST.2015.2477041,Network function virtualization: State-of-the-art andresearch challenges
+76,10.1109/COMST.2018.2815638,"Network slicing and softwarization: A survey on principles, enablingtechnologies, and solutions"
+77,10.1109/JIOT.2017.2750180,Mobile edge com-puting: A survey
+78,10.1109/MWC.2017.1600304WC,Intelligent 5G: When cellular networks meet artificialintelligence
+79,10.1109/ACCESS.2017.2682640,Live data analytics with collaborative edgeand cloud processing in wireless IoT networks
+80,10.1109/JSAC.2016.2525398,5G-enabledtactile Internet
+81,10.1109/COMST.2017.2773628,Dynamic spectrum sharing in 5G wireless networks withfull-duplex technology: Recent advances and research challenges
+82,10.1109/TVT.2018.2811942,UAV trajectory optimization for data offloading atthe edge of multiple cells
+83,10.1109/TAES.2018.2889585,Spatialspectrum sharing for satellite and terrestrial communication networks
+84,10.1109/TVT.2015.2487047,Analysis of spectrum occupancy usingmachine learning algorithms
+85,10.1109/JSAC.2016.2550338,A survey of energy-efficient techniques for 5G networks and challengesahead
+86,10.1109/MCOM.2018.1700659,A new wireless communication paradigm through software-controlled metasurfaces
+87,10.1109/COMST.2017.2783901,Simultaneous wireless information and power transfer (SWIPT):Recent advances and future challenges
+88,10.1109/GLOCOM.2017.8254636,Proactive content caching byexploiting transfer learning for mobile edge computing
+89,10.1109/TVT.2018.2867191,Mobility-aware edge caching and computingin vehicle networks: A deep reinforcement learning
+90,10.1109/TWC.2018.2883465,A wireless optical backhaul solutionfor optical attocell networks
+91,10.1109/MNET.2018.1800030,Shared access satellite-terrestrial reconfigurable back-haul network enabled by smart antennas at mmwave band
+92,10.1109/LCOMM.2018.2810211,Distributed caching enabled peak trafficreduction in ultra-dense IoT networks
+93,10.1109/JSAC.2018.2825560,A surveyof physical layer security techniques for 5G wireless networks and chal-lenges ahead
+94,10.1109/ACCESS.2018.2836950,Machine learning and deep learning methods for cyberse-curity
+95,10.1109/ACCESS.2019.2893056,Lightweight quantum encryption forsecure transmission of power data in smart grid
+96,10.1109/ICFCC.2009.136,Neural network basedMIMO-OFDM channel equalizer using comb-type pilot arrangement
+97,10.1109/TAES.2014.130416,Airborne Internet access through submarine optical fiber cables
+98,10.1109/TWC.2017.2683482,Echo state networks forproactive caching in cloud-based radio access networks with mobileusers
+99,10.1109/LCOMM.2010.120610.101741,Joint transmit/receive antenna selection for MIMO systems:A real-valued genetic approach
+100,10.1109/TWC.2004.837447,Selecting array con-figurations for MIMO systems: An evolutionary computation approach
+101,10.1109/TWC.2004.834705,Power control of cellularradio systems via robust Smith prediction filter
+102,10.1109/LCOMM.2009.081036,Joint receive antenna selection and symboldetection for MIMO systems: A heterogeneous genetic approach
+103,10.1109/MWC.2019.1800601,Deep learning in physicallayer communications
+104,10.1109/MCOM.2018.1701031,"Learning radio resource management in RANs: Framework,opportunities, and challenges"
+105,10.1109/LCOMM.2017.2787646,A novel PAPR reduction scheme forOFDM system based on deep learning
+106,10.1109/SPAWC.2017.8227766,Learn-ing to optimize: Training deep neural networks for wireless resourcemanagement
+107,10.1109/SPAWC.2018.8445857,Online energy-efficient powercontrol in wireless networks by deep neural networks
+108,10.1109/TKDE.2009.191,A survey on transfer learning
+109,10.1109/COMST.2015.2452414,Cognitive radio techniques under practical imperfections:A survey
+110,10.1109/JSAC.2013.131120,Machine learn-ing techniques for cooperative spectrum sensing in cognitive radio net-works
+111,10.1109/ACCESS.2018.2831240,Intelligentpower control for spectrum sharing in cognitive radios: A deep rein-forcement learning approach
+112,10.1109/VTCSpring.2017.8108226,Spectrum sharingoptimization in cellular networks under target performance and budgetrestriction
+113,10.1109/SURV.2012.100412.00017,A survey on machine-learningtechniques in cognitive radios
+114,10.1109/MCOM.2018.1700560,Machine learning for cognitive network management
+115,10.1109/MCOM.2013.6576335,Quantum communications: Explained for communication engi-neers
+116,10.1109/COMST.2017.2786748,A survey on quantum channelcapacities
+117,10.1109/TIT.2002.802612,Entanglement-assisted capacity of a quantum channel and the reverseShannon theorem
+118,10.1109/TIT.2004.839515,The private classical capacity and quantum capacity of aquantum channel
+119,10.1109/ISIT.2014.6874849,Identifying the informationgain of a quantum measurement
+120,10.1109/JSTQE.2014.2360366,Quantum spread spec-trum multiple access
+121,10.1109/JSTQE.2009.2024959,The quantum theory of optical communications
+122,10.1109/IPCon.2018.8527325,Feasibility ofquantum communications in aquatic scenario
+123,10.1109/IAEAC.2018.8577895,Terahertz essential devices technique research based on quantumcommunication
+124,10.1109/JSAC.2005.851157,Quantum communication forwireless wide-area networks
+125,10.1109/18.651037,The capacity of the quantum channel with general signalstates
+126,10.1109/TIT.2010.2053903,Entanglement-assisted communicationof classical and quantum information
+127,10.1109/TNANO.2015.2426058,Consequences ofmany-cell correlations in clocked quantum-dot cellular automata
+128,10.1109/5.573740,A device architecture for computing withquantum dots
+129,10.1109/TC.2014.2366745,Automateddesign architecture for 1-D cellular automata using quantum cellularautomata
+130,10.1109/LCA.2017.2719021,Design of generalized pipeline cellulararray in quantum-dot cellular automata
+131,10.1109/TNANO.2015.2428651,A signal distribution networkfor sequential quantum-dot cellular automata systems
+132,10.1109/ACCESS.2013.2259536,"Quantum search algorithms,quantum wireless, and a low-complexity maximum likelihood iterativequantum multi-user detector design"
+133,10.1109/ACCESS.2014.2322013,Low-complexity soft-output quantum-assisted multiuser detection for direct-sequence spread-ing and slow subcarrier-hopping aided SDMA-OFDM systems
+134,10.1109/TCOMM.2014.012514.130615,Fixed-complexity quantum-assistedmulti-user detection for CDMA and SDMA
+135,10.1109/TCOMM.2015.2458857,Iterativequantum-assisted multi-user detection for multi-carrier interleave divi-sion multiple access systems
+136,10.1109/ACCESS.2017.2732358,Quan-tum search-aided multi-user detection of IDMA-assisted multi-layeredvideo streaming
+137,10.1109/TVT.2011.2149552,The impact of nodeselfishness on multicasting in delay tolerant networks
+138,10.1109/ACCESS.2014.2327596,Quantum-assistedrouting optimization for self-organizing networks
+139,10.1109/TSP.2015.2451071,Joint channel estimation anddata detection in MIMO-OFDM systems: A sparse Bayesian learningapproach
+140,10.1109/TVT.2011.2161356,Joint channel estima-tion and multiuser detection for SDMA/OFDM based on dual repeatedweighted boosting search
+141,10.1109/WCNCW.2015.7122566,A quantum inspired reinforce-ment learning technique for beyond next generation wireless networks
+142,10.1109/72.572106,Quantum neural networks(QNNs): Inherently fuzzy feedforward neural networks
+143,10.1109/MSP.2018.2789521,Sparse representationfor wireless communications: A compressive sensing approach
+144,10.1109/MWC.2018.1700317,Learn to cache:Machine learning for network edge caching in the big data era
+145,10.1109/WCNC.2012.6214324,Multi-objective routingoptimization using evolutionary algorithms
+146,10.1109/CIT.2016.79,Quantum computing in big data analytics:A survey
+147,10.1109/COMST.2017.2694469,A survey on network methodologies for real-time analytics of massiveIoT data and open research issues
+148,10.1109/TCOMM.2015.2455504,Training-based antenna selection for PER minimization: A POMDPapproach
+149,10.1109/ACCESS.2019.2895594,Learning and data-driven beam selectionfor mmWave communications: An angle of arrival-based approach
+150,10.1109/TAP.2013.2276414,Learning state selection for reconfig-urable antennas: A multi-armed bandit approach
+151,10.1109/JPHOT.2017.2767576,Indoor localization usingvisible light via fusion of multiple classifiers
+152,10.1109/LPT.2017.2726139,Adaptive demodulator using machinelearning for orbital angular momentum shift keying
+153,10.1109/ISSPIT.2016.7886039,"Learning to communicate:Channel auto-encoders, domain specific regularizers, and attention"
+154,10.1109/JSTSP.2017.2784180,Deep learningbased communication over the air
+155,10.1109/TWC.2018.2843786,Dictionary learning-based sparse channel repre-sentation and estimation for FDD massive MIMO systems
+156,10.1109/LSP.2014.2343971,On the performance of non-orthogonal multiple access in 5G systems with randomly deployed users
+157,10.1109/ACCESS.2019.2896008,NOMA based resource allocation and mobility enhancement frameworkfor IoT in next generation cellular networks
+158,10.1109/ICC.2018.8422449,Detec-tion for 5G-NOMA: An online adaptive machine learning approach
+159,10.1109/TVT.2018.2848294,Deep learning for an effec-tive nonorthogonal multiple access scheme
+160,10.1109/LSP.2018.2876019,Delay minimizationfor NOMA-MEC offloading
+161,10.1109/MWC.2007.4300983,Applications ofmachine learning to cognitive radio networks
