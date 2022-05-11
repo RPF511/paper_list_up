@@ -1,0 +1,35 @@
+hardware
+software
+data
+network
+5g
+6g
+iot,internte of thing
+artificial inteligence,ai
+machine learning,ml
+reinforced learning,rl
+deep learning,dl
+cpu
+gpu
+i/o,input/output
+algorithm
+api
+compile,compiling
+ram
+rom
+memory
+security
+wireless
+hci,human
+system
+blockchain,block chain
+internet
+cloud
+beam
+energy
+cache,caching
+radio
+smart
+vehicle,vehicular
+wave
+quantum

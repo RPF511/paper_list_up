@@ -50,7 +50,7 @@ id,DOI,title
 48,10.1109/ACCESS.2020.2980285,Deeplearning-based mmWave beam selection for 5G NR/6G with sub-6 GHz channel information: Algorithms and prototype validation
 49,10.1109/JPROC.2019.2954595,Future intelligent andsecure vehicular network toward 6G: Machine-learning approaches
 50,10.1109/TVT.2020.2975559,HetMEC:Heterogeneous multi-layer mobile edge computing in the 6G era
-51,,A survey of 5G network: Architecture andemerging technologies
+51,NaN,A survey of 5G network: Architecture andemerging technologies
 52,10.1109/ACCESS.2018.2837382,Towards massive connectivity support for scal-able mMTC communications in 5G networks
 53,10.1109/ACCESS.2018.2837692,"Big data analytics, machine learning, and artificial intelligence in next-generation wireless networks"
 54,10.1109/LCOMM.2019.2896929,Collaborative distributed Q-learning forRACH congestion minimization in cellular IoT networks
@@ -161,3 +161,9 @@ id,DOI,title
 159,10.1109/TVT.2018.2848294,Deep learning for an effec-tive nonorthogonal multiple access scheme
 160,10.1109/LSP.2018.2876019,Delay minimizationfor NOMA-MEC offloading
 161,10.1109/MWC.2007.4300983,Applications ofmachine learning to cognitive radio networks
+162,10.1109/ACCESS.2015.2461602,A survey of 5G network: Architecture andemerging technologies
+163,10.1109/COMST.2016.2527741,A com-prehensive survey of recent advancements in molecular communication
+164,10.1109/TIT.2014.2330313,The squashed entangle-ment of a quantum channel
+165,NaN,The bounded-storage model in thepresence of a quantum adversary
+166,10.1109/TIT.2016.2627531,Quantum-proof randomnessextractors via operator space theory
+167,,The bounded-storage model in thepresence of a quantum adversary
