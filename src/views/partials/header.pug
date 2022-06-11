@@ -8,20 +8,18 @@ header
                     i.fas.fa-search
             if loggedIn
                 li
-                    a(href="/videos/upload") Upload Video
-                li
                     a(href="/users/edit") Edit Profile
                 li 
                     a(href="/users/logout") Log Out
-                li
-                    a(href=`/users/${loggedInUser._id}`)
-                        if loggedInUser.avatarUrl === ""
-                            span 😀
-                        else
-                            if loggedInUser.socialOnly 
-                                img(src=loggedInUser.avatarUrl).header__avatar
-                            else 
-                                img(src="/" + loggedInUser.avatarUrl).header__avatar
+                //- li
+                //-     a(href=`/users/${loggedInUser._id}`)
+                //-         if loggedInUser.avatarUrl === ""
+                //-             span 😀
+                //-         else
+                //-             if loggedInUser.socialOnly 
+                //-                 img(src=loggedInUser.avatarUrl).header__avatar
+                //-             else 
+                //-                 img(src="/" + loggedInUser.avatarUrl).header__avatar
             else 
                 li 
                     a(href="/login") Log In

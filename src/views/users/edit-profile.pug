@@ -1,0 +1,26 @@
+extends ../base
+
+block content 
+    if loggedInUser.socialOnly 
+        img(src = loggedInUser.avatarUrl, width="100", height="100")
+    else 
+        img(src = "/"+loggedInUser.avatarUrl, width="100", height="100")
+    form(method="POST", enctype="multipart/form-data").edit-profile__form
+        //- label(for="avatar") Avatar
+        //- input(type="file", id="avatar", name="avatar", accept="image/*")
+        input(name="name",type="text",required, placeholder="name", value=name)
+        if emailError 
+            span=emailError
+        input(name="email",type="text",required, placeholder="email", value=email)
+        if usernameError 
+            span=usernameError
+        input(name="username",type="text",required, placeholder="username", value=username)
+        input(name="location",type="text",required, placeholder="location", value=location)
+        if passwordError 
+            span=passwordError
+        input(name="password",type="password",required, placeholder="Confirm Password", autocomplete="off")
+        input(type="submit", value="Update Profile")
+
+        if !loggedInUser.socialOnly
+            div.edit-profile__password
+                a(href="change-password") Change Password &rarr; 

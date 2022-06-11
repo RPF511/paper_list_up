@@ -1,0 +1,15 @@
+extends ../base
+
+block content 
+    if errorMessage 
+        span=errorMessage
+    form(method="POST")
+        input(name="username",type="text",required, placeholder="Username")
+        input(name="password",type="password",required, placeholder="Password", autocomplete="off")
+        input(type="submit", value="Login")
+    hr
+    div
+        include ../partials/social-login
+    div.auth-switch
+        span Already have an account? 
+        a(href="/login") Log in now &rarr; 

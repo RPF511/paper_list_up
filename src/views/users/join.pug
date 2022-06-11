@@ -1,0 +1,25 @@
+extends ../base
+
+block content 
+    if errorMessage 
+        span=errorMessage
+    form(method="POST")
+        if emailError 
+            span=emailError
+        input(name="email",type="text",required, placeholder="email",value=email)
+        if usernameError 
+            span=usernameError
+        input(name="username",type="text",required, placeholder="username",value=username)
+        input(name="password",type="password",required, placeholder="password")
+        if passwordError 
+            span=passwordError
+        input(name="passwordCheck",type="password",required, placeholder="passwordCheck")
+        input(name="name",type="text",required, placeholder="name",value=name)
+        input(name="location",type="text",required, placeholder="location",value=location)
+        input(type="submit", value="Join")
+    hr
+    div
+        include ../partials/social-login
+    div.auth-switch
+        span Don't have an account? 
+        a(href="/join") Create one now &rarr;

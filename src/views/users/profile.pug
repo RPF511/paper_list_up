@@ -1,0 +1,15 @@
+extends ../base.pug
+include ../mixins/video.pug
+
+block content   
+    div.profile__data
+        //- if user.socialOnly 
+        //-     img(src=user.avatarUrl).avatar
+        //- else 
+        //-     img(src="/" + user.avatarUrl).avatar
+        h3=user.name
+    div.video-grid
+        each video in user.videos
+            +video(video)
+        else
+            span.empty__message No videos found 

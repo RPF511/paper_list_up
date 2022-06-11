@@ -1,10 +1,13 @@
-
+import "./db";
+import MongoStore from "connect-mongo";
 import express from "express";
 import session from "express-session";
 import morgan from "morgan";
+import { localsMiddleware } from "./middlewares";
+import flash from "express-flash";
 
 import rootRouter from "./routers/rootRouter";
-
+import userRouter from "./routers/userRouter";
 
 
 const app = express();
@@ -24,12 +27,14 @@ app.use(
         cookie: {
             maxAge: 864000000,
         },
-        // store: MongoStore.create({mongoUrl: process.env.DB_URL}),
+        store: MongoStore.create({mongoUrl: process.env.DB_URL}),
     })
 );
 
+app.use(flash());
+app.use(localsMiddleware);
 app.use("/",rootRouter);
-
+app.use("/users", userRouter);
 
 
 export default app;

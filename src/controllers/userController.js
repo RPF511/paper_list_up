@@ -1,5 +1,5 @@
 import User from "../models/User";
-
+import bcrypt from "bcrypt";
 import fetch from "node-fetch";
 
 export const see = async(req, res) => {
