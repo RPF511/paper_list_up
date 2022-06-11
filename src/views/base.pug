@@ -1,0 +1,27 @@
+include mixins/message
+
+doctype html
+//- pug and express can share 'locals' => pug can access the contents of locals
+
+html(lang="ko")
+    head
+        title #{pageTitle} | #{siteName}
+        //for backend dev
+        link(rel="stylesheet" hresf="https://unpkg.com/mvp.css")
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css")
+        // link(rel="stylesheet", href="/static/css/styles.css")
+    body
+        //- if messages.error 
+        //-     +message("error", messages.error)
+        //- if messages.info 
+        //-     +message("info", messages.info)
+        //- if messages.success 
+        //-     +message("success", messages.success)
+        include partials/header
+            
+        main
+            block content
+        include partials/footer.pug
+    //- script(src="/static/js/main.js")
+    block scripts
+        
