@@ -31,6 +31,7 @@
     "express-flash": "^0.0.2",
     "express-session": "^1.17.3",
     "fs": "0.0.1-security",
+    "iconv": "^3.0.1",
     "mongoose": "^6.3.6",
     "morgan": "^1.10.0",
     "pug": "^3.0.2"

@@ -3,8 +3,9 @@ import ResearchPaperLink from "../models/ResearchPaperLink";
 
 import axios from "axios";
 import cheerio from "cheerio";
-import { compileClient } from "pug";
+import { Iconv } from "iconv";
 
+const iconv = new Iconv('CP949','utf-8//translit//ignore');
 
 // let singleDataCrawler = new Crawler({
 //     maxConnections : 10,
@@ -55,12 +56,18 @@ async function crawlIEEE(result) {
     try{
         const response = await axios.get(result["url"]);
         // console.log(response);
-        const $ = await cheerio.load(response.data);
-        result["citations"] = Number($("body").find(".document-banner-metric-count").text());
-        result["INSPEC"] = Number($("body").find(".u-pb-1").text());
-        result["DOI"] = $("body").find(".stats-document-abstract-doi").text();
+        // const $ = await cheerio.load(response.data);
+        let htmlData = response.data.toString()
+        result["publisher"] = "IEEE"
+        // console.log(htmlData);
+        result["date"] = htmlData.split("Date\":\"")[1].split("\"")[0].toString();
+
+        result["citations"] = htmlData.split("citationCount\":\"")[1].split("\"")[0];
         
-        console.log(result);
+        result["INSPEC"] = Number(htmlData.split("accessionNumber\":\"")[1].split("\"")[0]);
+        result["DOI"] = htmlData.split("doi\":\"")[1].split("\"")[0];
+        
+        return result;
 
     } catch(err){
         console.log(err);
@@ -68,10 +75,84 @@ async function crawlIEEE(result) {
     
 }
 
+export const crawl = async(req,res) => {
+    const { title } = req.body
+
+    let url = "https://www.google.com/search?q=" + encodeURI(title).replace(/%20/g,"+").replace(/,/g ,"%2C").replace(/:/g,"%3A");
+    console.log(url);
+    let result = {};
+    let crawl = false;
+    // let dataExists = false;
+    let linkExists = false;
+    let complete = false;
+    let dataSave = false;
+    try{
+        const response = await axios.get(url);
+        // console.log(response);
+        // const $ = await cheerio.load(response.data);
+        let divData = response.data.toString().split("<a href=\"/url?q=");
+        // console.log(title.slice(0,30));
+        // console.log(divData);
+        for(let i = 0; i<3 ; i++){
+            if(divData[i].includes(title.slice(0,30)) && divData[i].includes("DOI")){
+                crawl = true;
+                divData = divData[i];
+                break;
+            }
+        }
+        if(crawl){
+            result["title"] = title;
+            result["url"] = divData.split("&amp;")[0];
+        }
+        console.log(result);
+    } catch(err) {
+        console.log(err);
+    }
+
+    if(crawl){
+        let urls = await ResearchPaperData.find({
+            url: {
+                //mongodb operator
+                $regex: new RegExp(result["url"], "i"),
+            },
+        })
+        if(urls.length > 0){
+            // dataExists = true;
+            for(let i = 0; i<urls.length;i++){
+                let linkData = await ResearchPaperLink.findOne({ data_id: urls[i]._id});
+                if(urls[i].DOI){
+                    complete = true;
+                }
+                if(linkData){
+                    linkExists=true;
+                }
+            }
+            if(linkExists){
+                return res.status(400).render("data/search", {pageTitle: "Search", errorMessage:"data exists"});
+            }
+        }
+        if(!complete){
+            if(result["url"].includes("ieee")){
+                dataSave = true;
+                
+                result = await crawlIEEE(result);
+                console.log(result);
+            }
+        }
+    }
+    
+    
+    // console.log(result);
+
+
+    return res.redirect("./search");
+}
+
+
 // export const crawl = async(req,res) => {
 //     const { title } = req.body
-
-//     let url = "https://www.google.com/search?q=" + encodeURI(title).replace(/%20/g,"+").replace(/,/g ,"%2C").replace(/:/g,"%3A");
+    
+//     let url = "https://scholar.google.com/scholar?hl=ko&as_sdt=0%2C5&q=" + encodeURI(title).replace(/%20/g,"+").replace(/,/g ,"%2C").replace(/:/g,"%3A") + "&btnG=";
 //     console.log(url);
 //     let result = {};
 //     let crawl = false;
@@ -80,14 +161,14 @@ async function crawlIEEE(result) {
 //     let complete = false;
 //     let dataSave = false;
 //     try{
-//         const response = await axios.get(url);
-//         console.log(response);
-//         const $ = await cheerio.load(response.data);
+//         const htmlData = await axios.get(url);
+//         console.log(htmlData);
+//         const $ = await cheerio.load(htmlData.data);
 //         // console.log($("body").text());
-//         // console.log($("body").find(".DKV0Md").text());
+//         console.log($("body").find(".gs_rt").first().text());
 
 
-//         if(title.toLowerCase().trim() == $("body").find(".LC20lb MBeuO DKV0Md").first().text().toLowerCase().trim()){
+//         if(title.toLowerCase().trim() == $("body").find(".gs_rt").first().text().toLowerCase().trim()){
 //             result["title"] = $("body").find(".gs_rt").first().text();
 //             result["author"] = $("body").find(".gs_a").first().text();
 //             result["publisher"] = $("body").find(".gs_or_ggsm").first().text().split("] ")[1].split(".")[0];
@@ -138,75 +219,3 @@ async function crawlIEEE(result) {
 
 //     return res.redirect("./search");
 // }
-
-
-export const crawl = async(req,res) => {
-    const { title } = req.body
-    
-    let url = "https://scholar.google.com/scholar?hl=ko&as_sdt=0%2C5&q=" + encodeURI(title).replace(/%20/g,"+").replace(/,/g ,"%2C").replace(/:/g,"%3A") + "&btnG=";
-    console.log(url);
-    let result = {};
-    let crawl = false;
-    // let dataExists = false;
-    let linkExists = false;
-    let complete = false;
-    let dataSave = false;
-    try{
-        const response = await axios.get(url);
-        console.log(response);
-        const $ = await cheerio.load(response.data);
-        // console.log($("body").text());
-        // console.log($("body").find(".gs_rt").first().text());
-
-
-        if(title.toLowerCase().trim() == $("body").find(".gs_rt").first().text().toLowerCase().trim()){
-            result["title"] = $("body").find(".gs_rt").first().text();
-            result["author"] = $("body").find(".gs_a").first().text();
-            result["publisher"] = $("body").find(".gs_or_ggsm").first().text().split("] ")[1].split(".")[0];
-            console.log($("body").find(".gs_fl").text().slice(10,40));
-            result["citations"] = Number($("body").find(".gs_fl").text().slice(10,40).replace( /\D/g, ''));
-            result["url"] = $.root().html().split('class="gs_rt"')[1].split('href="')[1].split('"')[0];
-            crawl = true;
-            
-        }
-        console.log(result);
-    } catch(err) {
-        console.log(err);
-    }
-
-    if(crawl){
-        let urls = await ResearchPaperData.find({
-            url: {
-                //mongodb operator
-                $regex: new RegExp(result["url"], "i"),
-            },
-        })
-        if(urls.length > 0){
-            // dataExists = true;
-            for(let i = 0; i<urls.length;i++){
-                let linkData = await ResearchPaperLink.findOne({ data_id: urls[i]._id});
-                if(urls[i].DOI){
-                    complete = true;
-                }
-                if(linkData){
-                    linkExists=true;
-                }
-            }
-            if(linkExists){
-                return res.status(400).render("data/search", {pageTitle: "Search", errorMessage:"data exists"});
-            }
-        }
-        if(!complete){
-            if(result["publisher"].includes("ieee")){
-                dataSave = true;
-                result = await crawlIEEE(result);
-            }
-        }
-    }
-    
-    
-    console.log(result);
-
-
-    return res.redirect("./search");
-}

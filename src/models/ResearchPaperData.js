@@ -6,7 +6,7 @@ const researchPaperDataSchema = new mongoose.Schema({
     title: {type: String, required:true, trim: true, minLength:1, maxLength: 1000},
     author: [{type: String, required:true, trim: true, minLength:1, maxLength: 100}],
     //Date.now() : executed every time / Date.now : executed when created
-    date: { type: Date , required:true, default: Date.now},
+    date: { type: String , required:true, default: Date.now},
     INSPEC:{type:Number, required:true},
     DOI: { type: String, trim: true },
     citations: { type: Number, trim: true },
