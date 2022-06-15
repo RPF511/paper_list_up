@@ -3,7 +3,6 @@ import mongoose from "mongoose";
 //export const formatHashtags = (hashtags) => hashtags.split(",").map((word) => word.startsWith('#') ? word : `#${word}`);
 
 const researchPaperDataSchema = new mongoose.Schema({
-    id : { type:mongoose.Schema.Types.ObjectId, required:true },
     title: {type: String, required:true, trim: true, minLength:1, maxLength: 1000},
     author: [{type: String, required:true, trim: true, minLength:1, maxLength: 100}],
     //Date.now() : executed every time / Date.now : executed when created

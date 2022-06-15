@@ -68,12 +68,83 @@ async function crawlIEEE(result) {
     
 }
 
+// export const crawl = async(req,res) => {
+//     const { title } = req.body
+
+//     let url = "https://www.google.com/search?q=" + encodeURI(title).replace(/%20/g,"+").replace(/,/g ,"%2C").replace(/:/g,"%3A");
+//     console.log(url);
+//     let result = {};
+//     let crawl = false;
+//     // let dataExists = false;
+//     let linkExists = false;
+//     let complete = false;
+//     let dataSave = false;
+//     try{
+//         const response = await axios.get(url);
+//         console.log(response);
+//         const $ = await cheerio.load(response.data);
+//         // console.log($("body").text());
+//         // console.log($("body").find(".DKV0Md").text());
+
+
+//         if(title.toLowerCase().trim() == $("body").find(".LC20lb MBeuO DKV0Md").first().text().toLowerCase().trim()){
+//             result["title"] = $("body").find(".gs_rt").first().text();
+//             result["author"] = $("body").find(".gs_a").first().text();
+//             result["publisher"] = $("body").find(".gs_or_ggsm").first().text().split("] ")[1].split(".")[0];
+//             console.log($("body").find(".gs_fl").text().slice(10,40));
+//             result["citations"] = Number($("body").find(".gs_fl").text().slice(10,40).replace( /\D/g, ''));
+//             result["url"] = $.root().html().split('class="gs_rt"')[1].split('href="')[1].split('"')[0];
+//             crawl = true;
+            
+//         }
+//         console.log(result);
+//     } catch(err) {
+//         console.log(err);
+//     }
+
+//     if(crawl){
+//         let urls = await ResearchPaperData.find({
+//             url: {
+//                 //mongodb operator
+//                 $regex: new RegExp(result["url"], "i"),
+//             },
+//         })
+//         if(urls.length > 0){
+//             // dataExists = true;
+//             for(let i = 0; i<urls.length;i++){
+//                 let linkData = await ResearchPaperLink.findOne({ data_id: urls[i]._id});
+//                 if(urls[i].DOI){
+//                     complete = true;
+//                 }
+//                 if(linkData){
+//                     linkExists=true;
+//                 }
+//             }
+//             if(linkExists){
+//                 return res.status(400).render("data/search", {pageTitle: "Search", errorMessage:"data exists"});
+//             }
+//         }
+//         if(!complete){
+//             if(result["publisher"].includes("ieee")){
+//                 dataSave = true;
+//                 result = await crawlIEEE(result);
+//             }
+//         }
+//     }
+    
+    
+//     console.log(result);
+
+
+//     return res.redirect("./search");
+// }
+
 
 export const crawl = async(req,res) => {
     const { title } = req.body
     
     let url = "https://scholar.google.com/scholar?hl=ko&as_sdt=0%2C5&q=" + encodeURI(title).replace(/%20/g,"+").replace(/,/g ,"%2C").replace(/:/g,"%3A") + "&btnG=";
-    // console.log(url);
+    console.log(url);
     let result = {};
     let crawl = false;
     // let dataExists = false;
@@ -82,9 +153,12 @@ export const crawl = async(req,res) => {
     let dataSave = false;
     try{
         const response = await axios.get(url);
-        // console.log(response);
+        console.log(response);
         const $ = await cheerio.load(response.data);
-        console.log($("body").find(".gs_rt").first().text());
+        // console.log($("body").text());
+        // console.log($("body").find(".gs_rt").first().text());
+
+
         if(title.toLowerCase().trim() == $("body").find(".gs_rt").first().text().toLowerCase().trim()){
             result["title"] = $("body").find(".gs_rt").first().text();
             result["author"] = $("body").find(".gs_a").first().text();
@@ -93,11 +167,13 @@ export const crawl = async(req,res) => {
             result["citations"] = Number($("body").find(".gs_fl").text().slice(10,40).replace( /\D/g, ''));
             result["url"] = $.root().html().split('class="gs_rt"')[1].split('href="')[1].split('"')[0];
             crawl = true;
-            // console.log(result);
+            
         }
+        console.log(result);
     } catch(err) {
         console.log(err);
     }
+
     if(crawl){
         let urls = await ResearchPaperData.find({
             url: {
@@ -129,7 +205,7 @@ export const crawl = async(req,res) => {
     }
     
     
-    // console.log(result);
+    console.log(result);
 
 
     return res.redirect("./search");
