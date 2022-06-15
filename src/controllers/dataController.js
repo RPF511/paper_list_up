@@ -3,6 +3,7 @@ import ResearchPaperLink from "../models/ResearchPaperLink";
 
 import axios from "axios";
 import cheerio from "cheerio";
+import { compileClient } from "pug";
 
 
 // let singleDataCrawler = new Crawler({
@@ -49,73 +50,86 @@ export const search = async(req,res) => {
     
 }
 
-function delay(ms) {
-    return new Promise(function(resolve, reject) {
-        setTimeout(function(){
-            resolve();
-        },ms);
-    });
-}
 
-function getHTML(url) {
-    return new Promise(resolve=>{
-        delay(100).then(function() {
-            axios.get(url).then(function(data) {
-                resolve(data);
-            });
-        });
-    })    
-}
-
-function getDataFromScholar(url) {
-    getHTML(url).then(html => {
-        const $ = cheerio.load(html.data);
-        let result = {};
-        result["title"] = $("body").find(".gs_rt").first().text();
-        result["author"] = $("body").find(".gs_a").first().text();
-        result["publisher"] = $("body").find(".gs_or_ggsm").first().text();
-        result["url"] = $.root().html().split('class="gs_rt"')[1].split('href="')[1].split('"')[0];
+async function crawlIEEE(result) {
+    try{
+        const response = await axios.get(result["url"]);
+        // console.log(response);
+        const $ = await cheerio.load(response.data);
+        result["citations"] = Number($("body").find(".document-banner-metric-count").text());
+        result["INSPEC"] = Number($("body").find(".u-pb-1").text());
+        result["DOI"] = $("body").find(".stats-document-abstract-doi").text();
         
-        
-        return result
-    });
+        console.log(result);
+
+    } catch(err){
+        console.log(err);
+    }
+    
 }
-
-// function makeJSON(workList) {
-//     getHTML(workList[cnt]).then(html => {
-//         let result = {};
-//         const $ = cheerio.load(html.data);
-//         result['title'] = $("body").find(".search_tit").text();
-//         result['date'] = $("body").find(".tit_loc").text();
-//         result['content_trans'] = $("body").find(".ins_view_pd").find(".paragraph").eq(0).text();
-//         result['content_origin'] = $("body").find(".ins_view_pd").find(".paragraph").eq(1).text();
-//         return result;
-//     })
-//     .then(res => {
-//         cnt++;
-//         resultList.push(res);
-//         if(workList.length == cnt){
-//             fs.writeFile('result_json.txt', JSON.stringify(resultList), 'utf8', function(error){
-//                 console.log('write end');
-//             });
-//         } else {
-//             makeJSON(workList);
-//         }
-//         console.log(cnt);
-//     });
-// }
-
 
 
 export const crawl = async(req,res) => {
     const { title } = req.body
     
     let url = "https://scholar.google.com/scholar?hl=ko&as_sdt=0%2C5&q=" + encodeURI(title).replace(/%20/g,"+").replace(/,/g ,"%2C").replace(/:/g,"%3A") + "&btnG=";
-    getDataFromScholar(url,title);
-    console.log(getHTML(url));
-    console.log(result);
-    // const  $ = await Cheerio.load(urlData.data);
-    // console.log(urlData);
+    // console.log(url);
+    let result = {};
+    let crawl = false;
+    // let dataExists = false;
+    let linkExists = false;
+    let complete = false;
+    let dataSave = false;
+    try{
+        const response = await axios.get(url);
+        // console.log(response);
+        const $ = await cheerio.load(response.data);
+        console.log($("body").find(".gs_rt").first().text());
+        if(title.toLowerCase().trim() == $("body").find(".gs_rt").first().text().toLowerCase().trim()){
+            result["title"] = $("body").find(".gs_rt").first().text();
+            result["author"] = $("body").find(".gs_a").first().text();
+            result["publisher"] = $("body").find(".gs_or_ggsm").first().text().split("] ")[1].split(".")[0];
+            console.log($("body").find(".gs_fl").text().slice(10,40));
+            result["citations"] = Number($("body").find(".gs_fl").text().slice(10,40).replace( /\D/g, ''));
+            result["url"] = $.root().html().split('class="gs_rt"')[1].split('href="')[1].split('"')[0];
+            crawl = true;
+            // console.log(result);
+        }
+    } catch(err) {
+        console.log(err);
+    }
+    if(crawl){
+        let urls = await ResearchPaperData.find({
+            url: {
+                //mongodb operator
+                $regex: new RegExp(result["url"], "i"),
+            },
+        })
+        if(urls.length > 0){
+            // dataExists = true;
+            for(let i = 0; i<urls.length;i++){
+                let linkData = await ResearchPaperLink.findOne({ data_id: urls[i]._id});
+                if(urls[i].DOI){
+                    complete = true;
+                }
+                if(linkData){
+                    linkExists=true;
+                }
+            }
+            if(linkExists){
+                return res.status(400).render("data/search", {pageTitle: "Search", errorMessage:"data exists"});
+            }
+        }
+        if(!complete){
+            if(result["publisher"].includes("ieee")){
+                dataSave = true;
+                result = await crawlIEEE(result);
+            }
+        }
+    }
+    
+    
+    // console.log(result);
 
 
     return res.redirect("./search");
