@@ -3,10 +3,10 @@ header
         i.fab.fa-github
     nav
         ul
-            li
-                a(href="/search")
-                    i.fas.fa-search
             if loggedIn
+                li
+                    a(href="/data/search")
+                        i.fas.fa-search
                 li
                     a(href="/users/edit") Edit Profile
                 li 

@@ -1,0 +1,19 @@
+extends ../base.pug
+//- include ../mixins/video
+
+block content 
+    form(method="GET").search__form
+        input(placeholder="Search by title", name="keyword", type="text")
+        //input(type="submit", value="Search now")
+        button
+            i.fas.fa-search
+
+    form(method="POST").input__form
+        input(placeholder="Crawl by title", name="title", type="text")
+        input(type="submit", value="Submit")
+
+    //- div.video-grid
+    //-     each video in videos 
+    //-         +video(video)
+    //-     else
+    //-         span.empty__message No videos found

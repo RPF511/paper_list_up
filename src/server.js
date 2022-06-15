@@ -1,5 +1,7 @@
 import "./db";
 import MongoStore from "connect-mongo";
+
+
 import express from "express";
 import session from "express-session";
 import morgan from "morgan";
@@ -8,10 +10,10 @@ import flash from "express-flash";
 
 import rootRouter from "./routers/rootRouter";
 import userRouter from "./routers/userRouter";
+import dataRouter from "./routers/dataRouter";
 
 
 const app = express();
-
 const logger = morgan("dev");
 
 app.set("view engine", "pug");
@@ -35,6 +37,7 @@ app.use(flash());
 app.use(localsMiddleware);
 app.use("/",rootRouter);
 app.use("/users", userRouter);
+app.use("/data", dataRouter);
 
 
 export default app;

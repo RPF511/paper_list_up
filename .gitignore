@@ -1,4 +1,5 @@
 /python/xplore
 /python/pdf
 /node_modules
+/config
 .env
