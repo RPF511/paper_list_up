@@ -2,10 +2,10 @@ import ResearchPaperData from "../models/ResearchPaperData";
 import ResearchPaperLink from "../models/ResearchPaperLink";
 
 import axios from "axios";
-import cheerio from "cheerio";
-import { Iconv } from "iconv";
+// import cheerio from "cheerio";
+// import { Iconv } from "iconv";
 
-const iconv = new Iconv('CP949','utf-8//translit//ignore');
+// const iconv = new Iconv('CP949','utf-8//translit//ignore');
 
 // let singleDataCrawler = new Crawler({
 //     maxConnections : 10,
@@ -66,6 +66,17 @@ async function crawlIEEE(result) {
         
         result["INSPEC"] = Number(htmlData.split("accessionNumber\":\"")[1].split("\"")[0]);
         result["DOI"] = htmlData.split("doi\":\"")[1].split("\"")[0];
+        result["author"] = [];
+
+        const authorHtml = await axios.get(result["url"]+"/authors#authors");
+        let authorData = authorHtml.data.toString().split("\"pdfPath\":\"")[0];
+        // console.log(authorData);
+        authorData = authorData.split("\"name\":\"");
+        // console.log(authorData);
+        for(let i = 1;i<authorData.length;i++){
+            result["author"].push(authorData[i].split("\"")[0]);
+        }
+
         
         return result;
 
@@ -75,14 +86,12 @@ async function crawlIEEE(result) {
     
 }
 
-export const crawl = async(req,res) => {
-    const { title } = req.body
-
+async function crawlSingle(title){
     let url = "https://www.google.com/search?q=" + encodeURI(title).replace(/%20/g,"+").replace(/,/g ,"%2C").replace(/:/g,"%3A");
-    console.log(url);
+    // console.log(url);
     let result = {};
     let crawl = false;
-    // let dataExists = false;
+    let dataExists = false;
     let linkExists = false;
     let complete = false;
     let dataSave = false;
@@ -106,7 +115,9 @@ export const crawl = async(req,res) => {
         }
         console.log(result);
     } catch(err) {
-        console.log(err);
+        result = {};
+        result["error"] = "data error";
+        return result;
     }
 
     if(crawl){
@@ -117,7 +128,7 @@ export const crawl = async(req,res) => {
             },
         })
         if(urls.length > 0){
-            // dataExists = true;
+            dataExists = true;
             for(let i = 0; i<urls.length;i++){
                 let linkData = await ResearchPaperLink.findOne({ data_id: urls[i]._id});
                 if(urls[i].DOI){
@@ -128,18 +139,76 @@ export const crawl = async(req,res) => {
                 }
             }
             if(linkExists){
-                return res.status(400).render("data/search", {pageTitle: "Search", errorMessage:"data exists"});
+                result = {};
+                result["error"] = "data exists";
+                // return res.status(400).render("data/search", {pageTitle: "Search", errorMessage:"data exists"});
+                return result;
             }
         }
         if(!complete){
             if(result["url"].includes("ieee")){
                 dataSave = true;
-                
-                result = await crawlIEEE(result);
                 console.log(result);
+                result = await crawlIEEE(result);
+                // console.log(result);
             }
         }
+        if(dataSave){
+            if(dataExists){
+                let newData = await ResearchPaperData.findOneAndUpdate({url:result["url"]}, result);
+                result["id"]= newData._id;
+                return result;
+            }else{
+                try {
+                    let newData = await ResearchPaperData.create({
+                        //title:title same since var name is same
+                        title : result["title"],
+                        author: result["author"],
+                        //Date.now() : executed every time / Date.now : executed when created
+                        date: result["date"],
+                        INSPEC:result["INSPEC"],
+                        DOI: result["DOI"],
+                        citations: result["citations"],
+                        publisher: result["publisher"],
+                        url: result["url"],
+                        keywords: [""],
+                    });
+                    result["id"] = newData._id;
+                    return result;
+                } catch(err){
+                    result = {};
+                    result["error"] = err.error._message;
+                    return result;
+                }
+            }
+
+            
+        }
+        
     }
+    result = {};
+    result["error"] = "crawl error";
+    return result;
+}
+
+// async function findRef(result){
+//     let idList = [];
+
+// }
+
+export const crawl = async(req,res) => {
+    const { title } = req.body
+
+    let result = await crawlSingle(title);
+    console.log(result);
+
+    if(result.hasOwnProperty('error')){
+        return res.status(400).render("data/search", {pageTitle: "Search", errorMessage:result["error"]});
+    }
+
+    // if(result.hasOwnProperty('id')){
+    //     findRef(result);
+    // }
     
     
     // console.log(result);
